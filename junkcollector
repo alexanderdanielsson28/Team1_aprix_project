@@ -1,0 +1,13 @@
+/*******
+
+        <!-- <script type="text/javascript">
+          var galleryId = "gallery";
+          Apirix.windowReady(function() {
+            new ApirixGallery({
+              gallerySelector: '#' + galleryId
+            });
+          }, false);
+        </script> -->
+        
+/********
+        

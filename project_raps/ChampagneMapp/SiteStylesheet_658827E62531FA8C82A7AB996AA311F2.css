@@ -1,0 +1,6 @@
+/* Fixing booking elements that are overwriten by our styles. */
+
+.cb-onlinebooking .cb-btn-blue:hover,
+.cb-onlinebooking .cb-available-time:hover {
+    color: #FFF;
+}

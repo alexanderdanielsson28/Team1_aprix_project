@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://ulfsundaspa.se/ -->
+<html xmlns:myscript="urn:my-scripts">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="Champagne SPA, MAKEUP ">
+  <meta name="description" content="Välkommen till Sveriges första Champagne SPA!
+En plats för vardagslyx, skönhetsbehandlingar, avkoppling och sparkling beauties.
+På Ulfsunda slott delar vi lokal med Hatt et Söners champagnekällare, en härligt bubblande mötesplats.">
+  <title>Champagne SPA, MAKEUP | Ulfsunda SPA</title>
+  <link rel="stylesheet" href="ChampagneMapp/font-awesome.min.css">
+  <link rel="stylesheet" href="ChampagneMapp/theme_0CB6246C8E4F8348416683B599C86A57.css">
+  <link rel="stylesheet" type="text/css" href="ChampagneMapp/css">
+  <link rel="Stylesheet" type="text/css" href="ChampagneMapp/SiteStylesheet_658827E62531FA8C82A7AB996AA311F2.css">
+  <link rel="stylesheet" href="ChampagneMapp/ekko-lightbox.min.css">
+  <link rel="stylesheet" href="ChampagneMapp/animate.min.css">
+  <link rel="stylesheet" href="ChampagneMapp/bootstrap.min.css">
+  <script async="" src="ChampagneMapp/analytics.js"></script>
+  <script type="text/javascript" src="ChampagneMapp/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      // Declare a global namespace.
+      window.Apirix = window.Apirix || {};
+
+      // Attach events to the window's load event.
+      window.Apirix.windowReady = function(callback) {
+        window.addEventListener("load", function() {
+          callback();
+        });
+      };
+
+      // Check if the current URL contains a parameter in the query string.
+      // Taken from: http://stackoverflow.com/a/901144/186787
+      window.Apirix.getParameterByName = function(name, url) {
+        if (!url) url = window.location.href;
+        // This is just to avoid case sensitiveness  
+        url = url.toLowerCase();
+        // This is just to avoid case sensitiveness for query parameter name
+        name = name.replace(/[\[\]]/g, "\\$&").toLowerCase();
+
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+
+      // Check if we are working in a debug mode (whether the query string contains a param).
+      window.Apirix.isDebug = (function() {
+        var PARAM_NAME = 'debug',
+          DEBUG_ON_VALUE = 'true';
+
+        return window.Apirix.getParameterByName(PARAM_NAME) === DEBUG_ON_VALUE;
+      })();
+    })();
+  </script>
+  <script type="text/javascript" src="ChampagneMapp/getAllAppDefault.esi"></script>
+  <script type="text/javascript" src="ChampagneMapp/checkOAuth.esi"></script>
+  <link rel="stylesheet" type="text/css" href="ChampagneMapp/buttons.ab966a004186897711de4a5ed256c924.css">
+</head>
+
+<body>
+  <section id="home" class="home-block page-block">
+    <div id="CTA1Panel" class="cta1-panel">
+      <div id="BusinessAreasControl" class="business-areas-control">
+        <script type="text/javascript">
+          var isPlaying = false;
+
+          /* function StopVideo(video, videoLink) {
+               isPlaying = false;
+               document.getElementById(video).style.display = 'none';
+               document.getElementById(video).pause();
+               document.getElementById(videoLink).innerHTML = 'Play';
+               document.getElementById(videoLink).className = 'video-link play btn play-icon';
+             }
+
+             function PlayVideo(video, videoLink) {
+               document.getElementById(video).addEventListener('ended', function() {
+                 StopVideo(video, videoLink)
+               }, false);
+
+               if (isPlaying) {
+                 $('.carousel').carousel('pause');
+                 StopVideo(video, videoLink);
+               }
+               else {
+                 $('.carousel').carousel('pause');
+
+                 isPlaying = true;
+                 document.getElementById(video).play();
+                 document.getElementById(video).style.display = 'block';
+                 document.getElementById(videoLink).innerHTML = 'Stop';
+                 document.getElementById(videoLink).className = 'video-link stop btn stop-icon';
+               }
+             }*/
+        </script>
+        <!--   <div id="CtaCarousel" class="carousel slide carousel--fullheight" data-interval="10000">
+          <ol class="carousel-indicators">
+            <li data-target="#CtaCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#CtaCarousel" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="carousel-item-overlay">
+                <h2 class="carousel-header">Champagne SPA</h2>
+                <div class="carousel-description">Välkommen till Sveriges första Champagne SPA! En plats för vardagslyx, skönhetsbehandlingar, avkoppling och sparkling beauties. På Ulfsunda slott delar vi lokal med Hatt et Söners champagnekällare, en härligt bubblande mötesplats.</div>
+              </div>
+              <div class="carousel-image-wrapper" style="
+                          background-image: url(Cache/valkommen_AECD55556AC6A787B839576ED9346A54.jpeg);
+                        "></div>
+            </div>
+            <div class="item">
+              <div class="carousel-item-overlay">
+                <h2 class="carousel-header">MAKEUP </h2>
+                <div class="carousel-description">Allt från dag till kvällsmakeup</div>
+              </div>
+              <div class="carousel-image-wrapper" style="
+                          background-image: url(Cache/makeup_FE02A7924A80D68102C251AAF174B7A9.jpeg);
+                        "></div>
+            </div>
+          </div>
+          
+          <a class="left carousel-control" href="http://ulfsundaspa.se/#CtaCarousel" data-slide="prev"><span class="icon-chevron-sign-left icon-2x icon"></span></a>
+          <a class="right carousel-control" href="http://ulfsundaspa.se/#CtaCarousel" data-slide="next"><span class="icon-chevron-sign-right icon-2x icon"></span></a>
+        </div>-->
+        <!--  <script>
+          window.addEventListener("load", function() {
+            $('#CtaCarousel').carousel();
+            /*$('#CtaCarousel').swipe( {
+            swipeLeft: function() {
+            $(this).carousel('next');
+            },
+            swipeRight: function() {
+            $(this).carousel('prev');
+            },
+            	allowPageScroll: 'vertical'
+            });*/
+          }, false);
+        </script>-->
+      </div>
+    </div>
+  </section>
+  <header id="HeaderPanel" class="header-panel">
+    <div class="wrapper">
+      <div id="Logotype" class="logotype-wrapper" xmlns:smartserver-ext-function="http://www.smartserver.se/xsl/extensions/function">
+        <!-- <a href="http://ulfsundaspa.se/"><img class="logotype" src="ChampagneMapp/ulfsunda-spa_0B4471586F6879CB941D927ED2D74721.jpeg"></a>-->
+      </div>
+      <div id="MenuPanel" class="menu-panel" xmlns:smartserver-ext-function="http://www.smartserver.se/xsl/extensions/function">
+        <div id="MenuControl" class="menu-control menu">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#MenuListContainer" aria-expanded="false"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><span class="visible-xs"><div class="navbar-brand">
+                  <div id="CallControl" class="call-control">
+                    <div class="dropdown"><a class="phone dropdown-toggle" id="callmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="tel:+46 8 704 49 40">Ring</a><ul class="dropdown-menu" aria-labelledby="callmenu">
+                        <li><a class="" href="tel:+46 8 704 49 40">Försäljning</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div><a class="navbar-brand" href="http://ulfsundaspa.se/#boka-tid"><i class="fa fa-calendar"></i>
+                        Boka
+                      </a></span></div>
+          <div class="collapse navbar-collapse menu-list-container" id="MenuListContainer">
+            <div id="CoverItAll">
+              <ul class="menu-list nav navbar-nav">
+                <li class="menu-item"><a class=" menu-item-link
+                  " data-toggle="" href=""><span>Om oss</span></a></li>
+                <li class="menu-item"><a class=" menu-item-link
+                  " data-toggle="" href=""><span>Våra åkrar</span></a></li>
+                <li class="menu-item"><a class=" menu-item-link
+                  " data-toggle="" href=""><span>Galleri</span></a></li>
+                <li class="menu-item"><a class=" menu-item-link
+                  " data-toggle="" href=""><span>Säsongs varor</span></a></li>
+                <li class="menu-item"><a class=" menu-item-link
+                  " data-toggle="" href=""><span>Öppettider</span></a></li>
+                <li><a class="social-media-link facebook-link" target="_blank" href=""><span class="social-media-icon"><i class="social-media-logo fa fa-facebook"></i></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <form method="post" action="http://ulfsundaspa.se/" id="ctl01">
+    <div class="aspNetHidden">
+      <input type="hidden" name="__ViewStateGuid" id="__ViewStateGuid" value="8e607d27-0c12-4852-a747-7601f2558b24">
+      <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="">
+    </div>
+
+    <div class="aspNetHidden">
+
+      <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAOvVXD1oYELeveMr0vHCmYPzn2qeNwLRZHQswGa6LpKDTnsAhNXPMRAurHGrTrZYQUuEEGAyMWgtl83t0TBfk76ghUhSBGCERFwQ8bmbP4xqA==">
+    </div>
+    <div id="ContentPanel" class="content-panel">
+
+      <div id="HeaderPanelBakground">
+        <div id="HeaderPanelBakgroundDiv">
+          <h2 id="AboutUsH2">Om Oss</h2>
+          <div id="AboutUsDivMiddle">
+            <div class="AboutUsDiv1And2" id="AboutUsDivPrivate1">
+              <p id="AboutUsP1">En matsked raps on dagen, det är bra för magen. En matsked raps on dagen, det är bra för magen. En matsked raps on dagen, det är bra för magen. En matsked raps on dagen, det är bra för magen.</p>
+            </div>
+            <div class="AboutUsDiv1And2" id="AboutUsDivPrivate2">
+              <p id="AboutUsP2">En matsked raps on dagen, det är bra för magen. En matsked raps on dagen, det är bra för magen. En matsked raps on dagen, det är bra för magen. En matsked raps on dagen, det är bra för magen.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--
+      <section class="page-block" id="om-oss" xmlns:smartserver-ext-function="http://www.smartserver.se/xsl/extensions/function">
+        <div id="AboutUsControl" class="about-us-control"><img class="about-us-image img-responsive" src="ChampagneMapp/frontPics.jpg">
+
+-->
+
+
+      <div class="css-slideshow">
+        <figure>
+          <img src="ChampagneMapp/pics/Citron-300x360.jpg" />
+          <figcaption><strong>"Smak av citron"</strong></figcaption>
+        </figure>
+
+        <figure>
+          <img src="ChampagneMapp/pics/Krondill-300x360.jpg" />
+          <figcaption><strong>"Smak av krondill"</strong></figcaption>
+        </figure>
+
+        <figure>
+          <img src="ChampagneMapp/pics/Timjan-300x360.jpg" />
+          <figcaption><strong>"Smak av Timjan"</strong></figcaption>
+        </figure>
+
+        <figure>
+          <img src="ChampagneMapp/pics/Ramslok-300x360.jpg" />
+          <figcaption><strong>"Smak av Ramslök"</strong></figcaption>
+        </figure>
+
+      </div>
+
+    </div>
+    </section>
+    <section class="page-block" id="behandlingar" xmlns:smartserver-ext-function="http://www.smartserver.se/xsl/extensions/function">
+      <div id="ArticlesContainer" class="articles-container">
+        <h1 class="articles-header">vår raps</h1>
+        <div class="services-carousel carousel slide clearfix" data-ride="carousel" data-interval="false" id="services-carousel">
+          <div class="carousel-indicators clearfix"><a class="
+                  js-history-link
+                  active" href="http://ulfsundaspa.se/#behandlingar/ansiktsbehandlingar" data-target="#services-carousel" data-slide-to="0"><span class="visible-xs indicator__index">1</span><span class="hidden-xs">Öländsk rapsolja</span></a><a class="
+                  js-history-link
+                  " href="http://ulfsundaspa.se/#behandlingar/ph-formula" data-target="#services-carousel" data-slide-to="1"><span class="visible-xs indicator__index">2</span><span class="hidden-xs">Alvaret</span></a><a class="
+                  js-history-link
+                  " href="http://ulfsundaspa.se/#behandlingar/nannic" data-target="#services-carousel" data-slide-to="2"><span class="visible-xs indicator__index">3</span><span class="hidden-xs">Från frö till raps</span></a><a class="
+                  js-history-link
+                  " href="http://ulfsundaspa.se/#behandlingar/makeup" data-target="#services-carousel" data-slide-to="3"><span class="visible-xs indicator__index">4</span><span class="hidden-xs">Närodlat</span></a><a class="
+                  js-history-link
+                  " href="http://ulfsundaspa.se/#behandlingar/spa-kroppsbehandlingar" data-target="#services-carousel" data-slide-to="4"><span class="visible-xs indicator__index">5</span><span class="hidden-xs">Din handel</span></a>
+            <a class="
+                  js-history-link
+                  " href="http://ulfsundaspa.se/#behandlingar/vaxningar" data-target="#services-carousel" data-slide-to="5"><span class="visible-xs indicator__index">6</span><span class="hidden-xs">Vädret</span></a></div>
+          <div class="container">
+            <div class="carousel-inner">
+              <div class="item active">
+                <h2 class="category-header visible-xs">Ansiktsbehandlingar</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="category-content">
+                      <div class="category-description">Vi erbjuder vanliga klassiska ansiktsbehandlingar till mer avancerad hudvård samt apparaturer för att vi ska kunna skräddarsy och ge dig det allra bästa för din hudhälsa. De märken som vi arbetar med är PH-formula, Babor &amp; Nannic.
+                        Kombinera gärna din ansiktsbehandling med att få fina fransar och bryn.</div>
+                      <ul class="items-list items-list--arrows">
+                        <li class="product">
+                          <div class="product__price-wrapper">1195.00<span class="product__price__currency">kr</span></div><strong>Ansiktsbehandling Lyx 80 min</strong>
+                          <div class="product__description">I Ansiktsbehandling lyx får du det bästa för ditt ansikte. Behandlingen består av rengöring, peeling av ansikte, hals och dekolletage, färgning av fransar och bryn inkl. plockning.
+                            <br>Huden värms upp med ångdimma och därefter görs huden ren med en grundlig portöming med efterföljande skön massage av ansikte och dekolletage. Behandlingen avslutas med en skön ansiktsmask, ett aktivt serum samt en lyxig crème.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">695.00<span class="product__price__currency">kr</span></div><strong>Ansiktsbehandling Classic 50 min</strong>
+                          <div class="product__description">I ansiktsbehandling Classic kan du välja mellan en rengörande eller en avslappnande behandling. Här ingår rengöring och peeling av ansikte, hals och dekolletage, portömning eller massage med efterföljande skön ansiktsmask efter
+                            just din hudtyp. Behandlingen avslutas med aktivt serum och en ansiktscrème.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">550.00<span class="product__price__currency">kr</span></div><strong>Ansiktsbehandling Flärd 40 min</strong>
+                          <div class="product__description">En lystergivande behandling som passar alla hudtyper. Rengöring, peeling massage och en specialmask, avslutas med ett aktivt serum och fuktgivande crème. Perfekt för den som vill vara en Prinsessa till festen eller bara behöver
+                            en vardagslyxig fuktboost.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">395.00<span class="product__price__currency">kr</span></div><strong>Frans &amp; Brynfärg inkl. formning</strong>
+                          <div class="product__description">(i samband med ansiktsbehandling&nbsp;250kr)</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">250.00<span class="product__price__currency">kr</span></div><strong>Fransfärgning</strong>
+                          <div class="product__description">(i samband med ansiktsbehandling&nbsp;150kr)</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">250.00<span class="product__price__currency">kr</span></div><strong>Brynfärg inkl. formning</strong>
+                          <div class="product__description">(i samband med ansiktsbehandling&nbsp;150kr)</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item ">
+                <h2 class="category-header visible-xs">PH-Formula</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="category-content">
+                      <ul class="items-list items-list--arrows">
+                        <li class="product">
+                          <div class="product__price-wrapper">695.00<span class="product__price__currency">kr</span></div><strong>PH-Formula Classic 70 min</strong>
+                          <div class="product__description">M.E.S.O. glow solution med H.Y.D.R.A. gel mask – alla hudtyper Ger en återfuktad hud med ökad lyster.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">395.00<span class="product__price__currency">kr</span></div><strong>Express – 30 min</strong>
+                          <div class="product__description">H.Y.D.R.A. gel mask - alla hudtyper.
+                            <br>Återfuktar och reparerar barriären.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">550.00<span class="product__price__currency">kr</span></div><strong>Lifting 365 dagar – 40 min</strong>
+                          <div class="product__description">I.N.S.T.A.N.T. mask med S.O.F.T. resurfacing cream – alla hudtyper.
+                            <br>Ger en lifting effekt och ökad lyster.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">395.00<span class="product__price__currency">kr</span></div><strong>V.I.T.A.C. – 30 min</strong>
+                          <div class="product__description">V.I.T.A.C – alla hudtyper.
+                            <br>Konsultationsbehandling – Booster för ökad lyster.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">550.00<span class="product__price__currency">kr</span></div><strong>Lifting Sommar – 40 min</strong>
+                          <div class="product__description">V.I.T.A.C med H.Y.D.R.A. gel mask – alla hudtyper.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">395.00<span class="product__price__currency">kr</span></div><strong>A.G.E – Mogen hud – 30 min</strong>
+                          <div class="product__description">Rekommenderas som en kur vid 4-6 behandlingstillfällen till åldrad hud.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">695.00<span class="product__price__currency">kr</span></div><strong>A.G.E – Mogen hud – 50 min</strong>
+                          <div class="product__description">A.G.E. 1 solutions med M.E.S.O. device Rekommenderas som en kur vid 4-6 behandlingstillfällen till åldrad hud.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">695.00<span class="product__price__currency">kr</span></div><strong>Hyperpigmenterad hud – 40 min</strong>
+                          <div class="product__description">M.E.L.A. 1 &amp; 2 powerclays med V.I.T.A. C Rekommenderas till hyperpigmenterad hud inflammationshämmande.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">795.00<span class="product__price__currency">kr</span></div><strong>Hyperpigmenterad hud – 50 min M.E.L.A.</strong>
+                          <div class="product__description">1 powerclays med M.E.S.O. device Rekommenderas som en kur vid 4-6 behandlingstillfällen till hyperpigmenterad hud.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">395.00<span class="product__price__currency">kr</span></div><strong>A.C.N.E. – 30 min</strong>
+                          <div class="product__description">A.C.N.E. 1 &amp; 2 solutions.
+                            <br>Rekommenderas som en kur vid 4-6 behandlingstillfällen till acne hud.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">695.00<span class="product__price__currency">kr</span></div><strong>A.C.N.E. – 50 min</strong>
+                          <div class="product__description">A.C.N.E. 1 solutions med M.E.S.O. device.
+                            <br>Rekommenderas som en kur vid 4-6 behandlingstillfällen till acne hud.
+                            <br>
+                          </div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">695.00<span class="product__price__currency">kr</span></div><strong>Känslig hud – 30 min</strong>
+                          <div class="product__description">C.R. 1 complex.
+                            <br>Rekommenderas som en kur vid 4-6 behandlingstillfällen rosacea och/eller sensitiviserad hud.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">395.00<span class="product__price__currency">kr</span></div><strong>Känslig acnehud – 30 min</strong>
+                          <div class="product__description">C.R. 1 complex.
+                            <br>Rekommenderas till en akut acne hud, sensitiviserad acne hud och en skadad barriär.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">695.00<span class="product__price__currency">kr</span></div><strong>Känslig hud – 50 min</strong>
+                          <div class="product__description">C.R. 1 complex med M.E.S.O. device.
+                            <br>Rekommenderas som en kur vid 4-6 behandlingstillfällen till en mild rosacea och sensitiviserad hud.</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item ">
+                <h2 class="category-header visible-xs">Nannic</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="category-content">
+                      <div class="category-description">Vi är ett godkänt och utbildat Nannic-Center och vi samarbetar direkt med Nannic i Sverige.
+                        <br>Hos oss får du en skön behandling med den senaste apparaturen och ett effektivt resultat.</div>
+                      <ul class="items-list items-list--arrows">
+                        <li class="product">
+                          <div class="product__price-wrapper">1195.00<span class="product__price__currency">kr</span></div><strong>Deep skin 70 min</strong>
+                          <div class="product__description">Med denna högteknologiska apparatur kan du uppnå resultat du inte trodde var möjlig!
+                            <br>Med en Nannic NBE Deep Skinbehandling får huden ett lyft som gör att den ser yngre och slätare ut.
+                            <br><b>NBE DEEP SKIN</b> består av två unika verktyg som kombineras med högteknologiska produkter. Den djuprengörande ABLATORN förbereder huden effektivt för kommande behandlingar. Utan att skada huden genomför Ablatorn en effektiv
+                            mekanisk peeling. Den djupgående INFUSORN använder en unik teknologi med mikrokanaler som öppnar upp huden lätt och slussar effektivt ner de aktiva högkoncentrerade serumen djup ner i huden. Resultaten är omedelbara och spektakulära.
+                            NBE Deep Skin går mindre djupt än traditionella apparaturer av samma typ men åstadkommer en djupare och effektivare påverkan utan risk för blödningar eller infektioner.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">350.00<span class="product__price__currency">kr</span></div><strong>Deep skin tilläggsbokning 15 min</strong>
+                          <div class="product__description">Hudslipning kan också läggas till vid en vanlig ansiktsbehandling.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">1195.00<span class="product__price__currency">kr</span></div><strong>NBE 1000 Behandling 90 min</strong>
+                          <div class="product__description">NBE 1000 är fortsättningen på succén NBE 500 och en exklusivare och mer kraftfull apparatur. Den bygger på en revolutionerande teknik som kombinerar både biopolärt och monopolärt system tillsamman med värme, radiofrekvens och
+                            specialutvecklade serum. Resultatinriktad hudvård för både ansiktet och på kroppen som är mycket avkopplande. Synliga resultat uppkommer redan från första behandlingen.</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item ">
+                <h2 class="category-header visible-xs">Makeup</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="category-content">
+                      <div class="category-description">Väl utvalt har vi mineralmakeupen Jane Iredale. Vi erbjuder allt från dag/kvällsmakeup och brudmakeup. Du kan även boka in dig på vår ”sparkling beauty” en gruppaktivitet där vi gå igenom grunderna för en hållbar sund makeup, vi
+                        kan även skräddarsy efter önskemål om t.ex. fokus ska vara sotade ögon inför festen ni ska vidare på<b>.</b></div>
+                      <ul class="items-list items-list--arrows">
+                        <li class="product">
+                          <div class="product__price-wrapper">550.00<span class="product__price__currency">kr</span></div><strong>Dagmakeup 40 min</strong>
+                          <div class="product__description">En lättare makeup där du få tips och råd för en bra grund och färgval anpassat för dig.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">695.00<span class="product__price__currency">kr</span></div><strong>Festmakeup 50 min</strong>
+                          <div class="product__description">Vi fixar looken åt dig, sotade ögon eller röda vackra läppar. En hållbar makeup för hela kvällen lång.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">795.00<span class="product__price__currency">kr</span></div><strong>Brudmakeup 50 min</strong>
+                          <div class="product__description">Hållbar makeup för hela din dag, vi lägger makeup efter önskemål samt ger dig tips och råd för rätt färgval för stora dagen. Boka gärna en konsultation 1-2v innan så går vi igenom färger och dina önskemål om makeupen.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">250.00<span class="product__price__currency">kr</span></div><strong>Brudmakeup konsultation 25 min</strong>
+                          <div class="product__description"></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item ">
+                <h2 class="category-header visible-xs">SPA &amp; Kroppsbehandlingar</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="category-content">
+                      <ul class="items-list items-list--arrows">
+                        <li class="product">
+                          <div class="product__price-wrapper">395.00<span class="product__price__currency">kr</span></div><strong>Bodyscrub 25 min</strong>
+                          <div class="product__description">En av de skönaste behandlingarna är en bodyscrub där vi peelar huden ren från döda hudceller, den efterlämnar en mjuk och len hudyta. Tips! Kombinera gärna din aromamassage med en bodyscrub innan eller annan valfri behandling.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">695.00<span class="product__price__currency">kr</span></div><strong>Aromamassage 50 min</strong>
+                          <div class="product__description">En skön aromatisk massage med avkopplande dofter för sinnet.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">795.00<span class="product__price__currency">kr</span></div><strong>Klassisk Massage 50 min</strong>
+                          <div class="product__description">En härlig dynamisk klassisk massage för spända muskler.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">495.00<span class="product__price__currency">kr</span></div><strong>Klassisk Massage 25 min</strong>
+                          <div class="product__description">&nbsp;&nbsp;En härlig dynamisk klassisk massage för spända muskler. </div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">795.00<span class="product__price__currency">kr</span></div><strong>Avkopplande slottsbad med doftande badfoam 45 min</strong>
+                          <div class="product__description">Koppla av i vårt badkar med en doftande badfoam. Under tiden utförs en kortare ansiktsbehandling med rengöring, peeling, ansiktsmassage och avslutande ansiktsmask. Under maskens verkan kan du avnjuta en smoothie i lugn och ro.
+                            Efter badet sprayas kroppen med en underbar kroppsolja.</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item ">
+                <h2 class="category-header visible-xs">Vaxningar</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="category-content">
+                      <ul class="items-list items-list--arrows">
+                        <li class="product">
+                          <div class="product__price-wrapper">595.00<span class="product__price__currency">kr</span></div><strong>Vaxning helben inkl. bikinilinje 50 min</strong>
+                          <div class="product__description">&nbsp;</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">395.00<span class="product__price__currency">kr</span></div><strong>Vaxning halvben inkl. knä 25 min</strong>
+                          <div class="product__description">&nbsp;</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">295.00<span class="product__price__currency">kr</span></div><strong>Vaxning bikinilinje eller axill 15 min</strong>
+                          <div class="product__description">&nbsp;</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">495.00<span class="product__price__currency">kr</span></div><strong>Vaxning rygg eller bröst 40 min</strong>
+                          <div class="product__description">&nbsp;</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">295.00<span class="product__price__currency">kr</span></div><strong>Vaxning överläpp/haka 15 min</strong>
+                          <div class="product__description"><i>Hårväxthämmande preparat ingår.</i></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item ">
+                <h2 class="category-header visible-xs">Gruppaktiviteter</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="category-content">
+                      <ul class="items-list items-list--arrows">
+                        <li class="product">
+                          <div class="product__price-wrapper">350.00<span class="product__price__currency">kr</span></div><strong>Sparkling Make, en gruppaktivitet med tjejligan, per person</strong>
+                          <div class="product__description">Ni kan även boka in dig på vår gruppaktivitet ”Sparkling Beauty” en aktivitet där ni får grunderna för en hållbar sund makeup och bästa hudvård, en uppskattad gruppaktivitet och naturligtvis gör vi detta med ett glas Champagne!
+                            Vi kan skräddarsy er makup efter önskemål t.ex. med fokus på hur ni får snygga sotade ögon inför festen ni ska vidare på eller festmakeup för högtidliga tillfällen. Min 4 och max 8 personer per grupp.</div>
+                        </li>
+                        <li class="product">
+                          <div class="product__price-wrapper">350.00<span class="product__price__currency">kr</span></div><strong>Sparkling Beauty</strong>
+                          <div class="product__description">Hudvårdsskola med vår Hudterapeut, här går vi tillsammans igenom grunderna för en optimal hudhälsa och ni får samtidigt vara med och utföra steg för steg för en fräschare hud.
+                            <br>Naturligtvis med ett glas Champagne!
+                            <br>Efter varje gruppaktivitet kan ni köpa produkter med 15% rabatt!</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          Apirix.windowReady(function() {
+            var carouselId = "services-carousel",
+              $carousel = $('#' + carouselId);
+
+            // Initialize the carousel.
+            $carousel.carousel();
+
+            // To make the carousel indicators trigger URL change.
+            new window.Apirix.ContainerHistorySupport($carousel);
+          });
+        </script>
+      </div>
+    </section>
+    <section class="page-block" id="galleri" xmlns:smartserver-ext-function="http://www.smartserver.se/xsl/extensions/function">
+      <div id="GalleryControl" class="gallery-control">
+        <h1 class="gallery-header">Galleri</h1>
+        <div class="gallery-wrapper">
+          <ul class="gallery__list clearfix" id="gallery">
+            <li class="gallery__item">
+              <a class="gallery__link animateCss" data-gallery-item="" data-gallery="gallery" href="ChampagneMapp/ulfsunda-spa_AECD55556AC6A787B839576ED9346A54.jpeg" style="visibility: hidden;"><img class="gallery__image" src="./Champagne SPA, MAKEUP _ Ulfsunda SPA_files/ulfsunda-spa_AECD55556AC6A787B839576ED9346A54.jpeg"></a>
+            </li>
+            <li class="gallery__item">
+              <a class="gallery__link animateCss" data-gallery-item="" data-gallery="gallery" href="ChampagneMapp/ulfsunda-spa_84783E7882EEBE98C39231A31465EEB2.jpeg" style="visibility: hidden;"><img class="gallery__image" src="./Champagne SPA, MAKEUP _ Ulfsunda SPA_files/ulfsunda-spa_84783E7882EEBE98C39231A31465EEB2.jpeg"></a>
+            </li>
+            <li class="gallery__item">
+              <a class="gallery__link animateCss" data-gallery-item="" data-gallery="gallery" href="ChampagneMapp/ulfsunda-spa_1A1B81B4D0EAEEDB4BE1C65FC6C89559.jpeg" style="visibility: hidden;"><img class="gallery__image" src="./Champagne SPA, MAKEUP _ Ulfsunda SPA_files/ulfsunda-spa_1A1B81B4D0EAEEDB4BE1C65FC6C89559.jpeg"></a>
+            </li>
+            <li class="gallery__item">
+              <a class="gallery__link animateCss" data-gallery-item="" data-gallery="gallery" href="ChampagneMapp/ulfsunda-spa_834362C422809F503D70C80071D83A10.jpeg" style="visibility: hidden;"><img class="gallery__image" src="./Champagne SPA, MAKEUP _ Ulfsunda SPA_files/ulfsunda-spa_834362C422809F503D70C80071D83A10.jpeg"></a>
+            </li>
+            <li class="gallery__item">
+              <a class="gallery__link animateCss" data-gallery-item="" data-gallery="gallery" href="ChampagneMapp/ulfsunda-spa_4BE259D999CEB933C9C29AB77D152AA1.jpeg" style="visibility: hidden;"><img class="gallery__image" src="./Champagne SPA, MAKEUP _ Ulfsunda SPA_files/ulfsunda-spa_4BE259D999CEB933C9C29AB77D152AA1.jpeg"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="page-block" id="erbjudanden" xmlns:smartserver-ext-function="http://www.smartserver.se/xsl/extensions/function">
+      <div id="OffersContainer" class="offers-container">
+        <h1 class="offers-header">
+            säsongsbutik
+          </h1>
+        <div class="container">
+          <div class="row">
+            <ul class="items-list items-list--arrows">
+              <li class="product product--offer col-md-8 col-md-offset-2">
+                <div class="product__price-wrapper">750.00<span class="product__price__currency">kr</span></div><strong>Ansiktsbehandling lyx 80 min, ord pris 895kr</strong>
+                <div class="product__description">En härlig ansiktsbehandling med rengöring, peeling, ånga, massage och avslutande mask och créme.</div>
+              </li>
+              <li class="product product--offer col-md-8 col-md-offset-2">
+                <div class="product__price-wrapper">750.00<span class="product__price__currency">kr</span></div><strong>PH-formula Classic 70 min, ord pris 895kr</strong>
+                <div class="product__description">Ger en återfuktad hud och lyster för alla hudtyper.</div>
+              </li>
+              <li class="product product--offer col-md-8 col-md-offset-2">
+                <div class="product__price-wrapper">295.00<span class="product__price__currency">kr</span></div><strong>PH-formula vita C 25 min, ord pris 395kr</strong>
+                <div class="product__description">Lystergivande C-vitamin boost. Boka en kur 4-6 gånger för bästa resultat.</div>
+              </li>
+              <li class="product product--offer col-md-8 col-md-offset-2">
+                <div class="product__price-wrapper">995.00<span class="product__price__currency">kr</span></div><strong>Deep skin 70 min, ord pris 1195kr</strong>
+                <div class="product__description">Uppstramande, fuktgivande och ett lyft på köpet. Boka en kur på 4-6 gånger för ett mer hållbart resultat. Du kan kombinera apparaterna.</div>
+              </li>
+              <li class="product product--offer col-md-8 col-md-offset-2">
+                <div class="product__price-wrapper">395.00<span class="product__price__currency">kr</span></div><strong>Förgning av fransar och bryn inkl. plock 25 min</strong>
+                <div class="product__description">Glöm inte att boka in färgning av fransar och bryn i din behandling. Vi lämnar 100 kr rabatt i samband med din behandling.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-block" id="ThePageBlock" xmlns:smartserver-ext-function="http://www.smartserver.se/xsl/extensions/function">
+      <div class="container">
+        <div class="row">
+          <div id="MegafonControl" class="megafon-control" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+            <div id="MegafonNewsletterContainer" class="megafon-newsletter-container">
+              <div class="col-md-6 col-md-offset-3">
+                <h2 class="megafon-newsletter-header">Nyhetsbrev</h2>
+                <div class="megafon-newsletter-presentation">Här har du möjligthet att prenemurera till vårat nyhetsblad där vi skickar ut erbjudanden som gäller för säsongen, passa på att ligga steget före!
+                  <div>
+
+                  </div>
+                </div>
+                <div id="MegafonSubscribeContainer" class="megafon-subscribe-container">
+                  <div class="col-md-8">
+                    <input name="MegafonSubscribeTextBox" type="text" id="MegafonSubscribeTextBox" class="form-control megafon-subscribe-textbox" placeholder="E-postadress">
+                  </div>
+                  <div class="col-md-4">
+                    <input type="submit" name="FinishMegafonSubscribeButton" value="Prenumerera" id="FinishMegafonSubscribeButton" class="btn btn-default finish-megafon-subscribe-button">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="boka-tid" class="page-block" xmlns:smartserver-ext-function="http://www.smartserver.se/xsl/extensions/function">
+      <div class="container">
+        <div class="row">
+          <h1>Boka Behandling</h1>
+          <div id="BookingWrapper" class="booking-wrapper" style="position: relative;">
+            <!--   <div class="cb-onlinebooking" style="position:relative!important;">
+                <div class="cb-content" style="display: block;">
+                  <div class="cb-book-treatment cb-container">
+                    <div class="cb-filters">
+                      <div>
+                        <button class="cb-filter cb-filter-activity cb-filter-active" data-filter-data=".cb-filter-activity-data"><span class="cb-filter-name">Tjänst</span><span class="cb-filter-value">Välj tjänst</span><span class="cb-caret"></span></button>
+                      </div>
+                      <div>
+                        <div class="cb-popover cb-filter-activity-data" style="display: block;">
+                          <div class="cb-arrow" style="left:203px;"></div>
+                          <div class="cb-popover-content">
+                            <div class="cb-activity-group" data-id="1">
+                              <div class="cb-title">Ansiktsbehandlingar</div>
+                              <div class="cb-activity" data-id="3">
+                                <div class="cb-title" style="line-height:38px;">Ansiktsbehandling Lyx 80 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="4">
+                                <div class="cb-title" style="line-height:38px;">Ansiktsbehandling Classic 50 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                            </div>
+                            <div class="cb-activity-group" data-id="2">
+                              <div class="cb-title">PH-Formula Behandlingar</div>
+                              <div class="cb-activity" data-id="6">
+                                <div class="cb-title" style="line-height:38px;">PH-Formula VITA C 25 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="7">
+                                <div class="cb-title" style="line-height:38px;">PH-Formula AGE 30 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="8">
+                                <div class="cb-title" style="line-height:38px;">PH-Formula AGE 50 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="9">
+                                <div class="cb-title" style="line-height:38px;">PH-Formula MELA 1 40 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="10">
+                                <div class="cb-title" style="line-height:38px;">PH-Formula MELA 2 50 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="11">
+                                <div class="cb-title" style="line-height:38px;">PH-Formula ACNE 30 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="12">
+                                <div class="cb-title" style="line-height:38px;">PH-Formula ACNE 50 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="13">
+                                <div class="cb-title" style="line-height:38px;">PH-Formula CR 30 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="14">
+                                <div class="cb-title" style="line-height:38px;">PH-Formula CR 50 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                            </div>
+                            <div class="cb-activity-group" data-id="3">
+                              <div class="cb-title">Ansiktbehandlingar med apparatur</div>
+                              <div class="cb-activity" data-id="15">
+                                <div class="cb-title" style="line-height:38px;">Deep Skin 70 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="16">
+                                <div class="cb-title" style="line-height:38px;">Deep Skin tillägg 15 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                            </div>
+                            <div class="cb-activity-group" data-id="4">
+                              <div class="cb-title">Makeup</div>
+                              <div class="cb-activity" data-id="17">
+                                <div class="cb-title" style="line-height:38px;">Makeup Fest 50 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="18">
+                                <div class="cb-title" style="line-height:38px;">Makeup Dag 40 min </div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="19">
+                                <div class="cb-title" style="line-height:38px;">Makeup Brud 50 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="20">
+                                <div class="cb-title" style="line-height:38px;">Makeup konsultation Brud 25 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                            </div>
+                            <div class="cb-activity-group" data-id="5">
+                              <div class="cb-title">Kroppsbehandlingar</div>
+                              <div class="cb-activity" data-id="26">
+                                <div class="cb-title" style="line-height:38px;">Kropp - Bodyscrub 25 min </div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="27">
+                                <div class="cb-title" style="line-height:38px;">Kropp - Avkopplande slottsbad med ansiktsbehandling 45 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="28">
+                                <div class="cb-title" style="line-height:38px;">Kropp - Aromamassage 50 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="29">
+                                <div class="cb-title" style="line-height:38px;">Kropp - Massage 50 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="30">
+                                <div class="cb-title" style="line-height:38px;">Kropp - Massage 25 min </div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                            </div>
+                            <div class="cb-activity-group" data-id="6">
+                              <div class="cb-title">Vaxningar</div>
+                              <div class="cb-activity" data-id="21">
+                                <div class="cb-title" style="line-height:38px;">Vaxning Helben inkl bikini 50 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="22">
+                                <div class="cb-title" style="line-height:38px;">Vaxning Halvben inkl knä 25 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="23">
+                                <div class="cb-title" style="line-height:38px;">Vaxning Bikini/Axill 15 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="24">
+                                <div class="cb-title" style="line-height:38px;">Vaxning Rygg/Bröst</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="25">
+                                <div class="cb-title" style="line-height:38px;">Vaxning Överläpp/Haka</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                            </div>
+                            <div class="cb-activity-group" data-id="D">
+                              <div class="cb-title">Vanliga tjänster</div>
+                              <div class="cb-activity" data-id="5">
+                                <div class="cb-title" style="line-height:38px;">Ansiktbehandling Flärd 40 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="32">
+                                <div class="cb-title" style="line-height:38px;">Mesoresurfacing 50 min </div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="33">
+                                <div class="cb-title" style="line-height:38px;">Mesoresurfacing 30 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="34">
+                                <div class="cb-title" style="line-height:38px;">C.R Känslig Acnehud 30 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="35">
+                                <div class="cb-title" style="line-height:38px;">Lifting Sommar 40 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="36">
+                                <div class="cb-title" style="line-height:38px;">PH-Formula Classic 70 min </div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                              <div class="cb-activity" data-id="37">
+                                <div class="cb-title" style="line-height:38px;">NBE 1000 70 min</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue">Välj</a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cb-week-times cb-no-data-ready">
+                      <div class="cb-overlay">
+                        <div class="cb-progress-bar"></div>
+                      </div>
+                      <div class="cb-suggestion-bar"></div>
+                      <div class="cb-week-selector">
+                        <a href="http://ulfsundaspa.se/#"><img src="ChampagneMapp/arrow-left.png" alt="" title=""></a>
+                        <div class="cb-week-details">
+                          <div class="cb-week-number">Vecka <span>17</span></div>
+                          <div class="cb-week-name">Denna vecka</div>
+                        </div>
+                        <a href="http://ulfsundaspa.se/#" class="cb-week-next"><img src="ChampagneMapp/arrow-right.png" alt="" title=""></a>
+                      </div>
+                      <div class="cb-times">
+                        <div class="cb-table">
+                          <div class="cb-col cb-today">
+                            <div class="cb-col-head">
+                              <div class="cb-day">25</div>
+                              <div class="cb-day-name"><span>Måndag</span>
+                                <div class="cb-day-month">April</div>
+                              </div>
+                            </div>
+                            <div class="cb-col-body"></div>
+                          </div>
+                          <div class="cb-col">
+                            <div class="cb-col-head">
+                              <div class="cb-day">26</div>
+                              <div class="cb-day-name"><span>Tisdag</span>
+                                <div class="cb-day-month">April</div>
+                              </div>
+                            </div>
+                            <div class="cb-col-body"></div>
+                          </div>
+                          <div class="cb-col">
+                            <div class="cb-col-head">
+                              <div class="cb-day">27</div>
+                              <div class="cb-day-name"><span>Onsdag</span>
+                                <div class="cb-day-month">April</div>
+                              </div>
+                            </div>
+                            <div class="cb-col-body"></div>
+                          </div>
+                          <div class="cb-col">
+                            <div class="cb-col-head">
+                              <div class="cb-day">28</div>
+                              <div class="cb-day-name"><span>Torsdag</span>
+                                <div class="cb-day-month">April</div>
+                              </div>
+                            </div>
+                            <div class="cb-col-body"></div>
+                          </div>
+                          <div class="cb-col">
+                            <div class="cb-col-head">
+                              <div class="cb-day">29</div>
+                              <div class="cb-day-name"><span>Fredag</span>
+                                <div class="cb-day-month">April</div>
+                              </div>
+                            </div>
+                            <div class="cb-col-body"></div>
+                          </div>
+                          <div class="cb-col">
+                            <div class="cb-col-head">
+                              <div class="cb-day">30</div>
+                              <div class="cb-day-name"><span>Lördag</span>
+                                <div class="cb-day-month">April</div>
+                              </div>
+                            </div>
+                            <div class="cb-col-body"></div>
+                          </div>
+                          <div class="cb-col">
+                            <div class="cb-col-head">
+                              <div class="cb-day">01</div>
+                              <div class="cb-day-name"><span>Söndag</span>
+                                <div class="cb-day-month">Maj</div>
+                              </div>
+                            </div>
+                            <div class="cb-col-body"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cb-note">När du valt tjänst, kommer bokningsbara tider visas här.</div>
+                    </div>
+                  </div>
+                  <div class="cb-modal">
+                    <div class="cb-modal-content">
+                      <div class="cb-modal-header"><a href="http://ulfsundaspa.se/#" class="cb-close cb-hide-modal">×</a></div>
+                      <div class="cb-modal-body">
+                        <div class="cb-modal-body-content cb-modal-body-signed-in-as">
+                          <h2>Du är inloggad som</h2><img src="" class="cb-user-photo" alt="" title="">
+                          <div class="cb-singed-in-name"></div>
+                          <div class="cb-singed-in-not-you">Är det inte du? <a href="http://ulfsundaspa.se/#">Klicka här</a> för att byta person.</div><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue cb-btn-signed-in-continue">Fortsätt</a></div>
+                        <div class="cb-modal-body-content cb-modal-body-sign-in">
+                          <h2>Vem är du?</h2>
+                          <form onsubmit="return false;"><img src="ChampagneMapp/user.png" class="cb-user-photo" alt="" title="">
+                            <label for="cb-i-726-sign-in" class="cb-input-label">Personnummer</label>
+                            <input type="text" id="cb-i-726-sign-in" name="patient_birth" placeholder="Ditt personnummer...">
+                            <div class="cb-input-error"></div>
+                            <input type="submit" class="cb-btn cb-btn-green cb-sign-in" value="Bekräfta">
+                          </form>
+                        </div>
+                        <div class="cb-modal-body-content cb-modal-body-sign-up">
+                          <h2>Gå vidare</h2>
+                          <form onsubmit="return false;">
+                            <div class="cb-input-group">
+                              <label for="cb-signup-i726-patient-firstname" class="cb-input-label">Förnamn</label>
+                              <input type="text" id="cb-signup-i726-patient-firstname" name="patient_firstname" class="cb-input-required" placeholder="Förnamn">
+                            </div>
+                            <div class="cb-input-group">
+                              <label for="cb-signup-i726-patient-lastname" class="cb-input-label">Efternamn </label>
+                              <input type="text" id="cb-signup-i726-patient-lastname" name="patient_lastname" class="cb-input-required" placeholder="Efternamn ">
+                            </div>
+                            <div class="cb-input-group">
+                              <label for="cb-signup-i726-patient-birth" class="cb-input-label">Personnummer</label>
+                              <input type="text" id="cb-signup-i726-patient-birth" name="patient_birth" class="cb-input-required" placeholder="Personnummer">
+                            </div>
+                            <div class="cb-input-group">
+                              <label for="cb-signup-i726-patient-email" class="cb-input-label">E-post</label>
+                              <input type="text" id="cb-signup-i726-patient-email" name="patient_email" class="cb-input-required" placeholder="E-post">
+                            </div>
+                            <div class="cb-input-group">
+                              <label for="cb-signup-i726-patient-phone-mobile" class="cb-input-label">Mobiltelefon </label>
+                              <input type="text" id="cb-signup-i726-patient-phone-mobile" name="patient_phone_mobile" class="cb-input-required" placeholder="Mobiltelefon ">
+                            </div>
+                            <div class="cb-input-error"></div>
+                            <input type="submit" class="cb-btn cb-btn-green cb-sign-up" value="Gå vidare">
+                          </form>
+                        </div>
+                        <div class="cb-modal-body-content cb-modal-body-review-booking-information">
+                          <h2>Din bokning</h2>
+                          <div class="cb-booking-information">
+                            <table class="cb-callout cb-callout-info">
+                              <tbody>
+                                <tr>
+                                  <td class="cb-label">Behandling</td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                  <td class="cb-label">När</td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                  <td class="cb-label">Var</td>
+                                  <td></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <div class="cb-callout cb-booking-status"></div>
+                            <div class="cb-act"><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue cb-confirm-booking">Bekräfta</a> <a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-white cb-hide-modal">Avbryt</a></div>
+                            <div class="cb-done">
+                              <div class="cb-auto-close-modal-note">Den här rutan stängs automatiskt om <b>10</b> sekunder...</div>
+                              <div style="float:right;"><a href="http://ulfsundaspa.se/#" class="cb-btn cb-btn-blue cb-hide-modal">Ok</a></div>
+                              <div style="clear:both;"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cb-modal-loader"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cb-notification-bar">
+                  <div class="cb-notification"></div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <link rel="stylesheet" href="ChampagneMapp/cbonlinebooking.css">
+        <script src="ChampagneMapp/jquery.cbonlinebooking.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function() {
+            var clinicId = "-2990";
+            var $bookingControl = $('#BookingWrapper');
+
+            // To prevent form submit when a button is clicked.
+            $bookingControl.on('click', 'button', function(e) {
+              e.preventDefault();
+            });
+
+            var bookingSettings = {
+              uid: clinicId,
+              embedded: false,
+              customization: {
+                filters: {
+                  provider: {
+                    show: 0
+                  }
+                },
+                header: {
+                  show: 0
+                },
+                footer: {
+                  show: 0
+                },
+                streetview: {
+                  show: 0
+                },
+                contact: {
+                  show: 0
+                }
+              },
+              appearance: {
+                sections: false,
+                filters: {
+                  activity: {
+                    duration: false,
+                    groups: false
+                  }
+                }
+              }
+            };
+            $bookingControl.cbOnlineBooking(bookingSettings);
+          });
+        </script>
+    </section>
+    </div>
+  </form>
+  <div id="FooterPanel" class="footer-panel">
+    <div class="wrapper">
+      <div class="container" xmlns:smartserver-ext-function="http://www.smartserver.se/xsl/extensions/function">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="ContactUsControl" class="contact-us-control">
+              <h2 class="contact-us-header">Kontakta oss</h2>
+              <div class="location-container">
+                <div id="VisitAddressContainer" class="visit-address-container  contact-method-container">
+                  <h3>Besöksadress</h3>Margretelundsvägen 125
+                  <br>16736 Bromma</div>
+                <div id="PhoneNumbersContainer" class="phone-numbers-container contact-method-container">Försäljning:
+                  <a class="number" href="tel:+46 8 704 49 40">+46 8 704 49 40</a>
+                  <br>
+                </div>
+                <div id="EmailAddressesContainer" class="email-addresses-container  contact-method-container">Försäljning:
+                  <a class="email" href="mailto:ulfsundaslott@ulfsundaslott.se">ulfsundaslott@ulfsundaslott.se</a>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="PoweredByPanel" class="powered-by-panel">
+    <div class="container text-right">
+      <a href="http://www.apirix.se/" target="_blank"><img class="powered-by__logo" src="ChampagneMapp/Icon.png" alt="Apirix"><span class="powered-by__text">Powered by Apirix</span></a>
+    </div>
+  </div>
+  <script>
+    window.addEventListener("load", function() {
+      var $in_view_animation_elements = null;
+      var $load_animation_elements = null;
+
+      var $window = $(window),
+        $body = $('body');
+      $window.on('scroll resize click load', check_if_in_view);
+      $window.trigger('scroll resize click');
+
+      //events on load
+      animationsOnLoad();
+
+      function animationsOnLoad() {
+        if ($load_animation_elements == null) {
+          $load_animation_elements = $('.load-animation-element');
+        }
+        var window_height = $window.height();
+        var window_top_position = $window.scrollTop();
+        var window_bottom_position = (window_top_position + window_height);
+
+        $.each($load_animation_elements, function() {
+          var $element = $(this);
+          var element_height = $element.outerHeight();
+          var element_top_position = $element.offset().top;
+          var element_bottom_position = (element_top_position + element_height);
+
+          $element.addClass('on-load');
+          //$element.addClass(e.type);	
+        });
+      }
+
+      function check_if_in_view(e) {
+        if ($in_view_animation_elements == null) {
+          $in_view_animation_elements = $('.in-view-animation-element');
+        }
+        var window_height = $window.height();
+        var window_top_position = $window.scrollTop();
+        var window_bottom_position = (window_top_position + window_height);
+
+        $.each($in_view_animation_elements, function() {
+          var $element = $(this);
+          var element_height = $element.outerHeight();
+          var element_top_position = $element.offset().top;
+          var element_bottom_position = (element_top_position + element_height);
+
+          //check to see if this current container is within viewport
+          if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position) && ($element).is(":visible")) {
+            $element.addClass('in-view');
+            $element.addClass(e.type);
+          }
+        });
+      }
+    }, false);
+
+    $(function() {
+      var $window = $(window),
+        $body = $('body');
+
+      // [NEW] Header and navigation-related actions
+      (function() {
+        // Constants.
+        var FIXED_CSS = 'fixed';
+        var SMOOTH_SCROLL_SPEED = 500;
+
+        // "Caching" reusable jquery objects and values.
+        var $header = $('#HeaderPanel'),
+          navHeight = $window.height();
+
+        // Recalculate window height on after resize.
+        $window.on('resize', function() {
+          navHeight = $window.height();
+        });
+
+        // Once the scroll exceeds the height of the window, add a CSS class to make it fixed on the top.
+        $window.on('scroll', function() {
+          if ($window.scrollTop() > navHeight) {
+            $header.addClass(FIXED_CSS);
+            $body.css({
+              paddingTop: $header.outerHeight()
+            });
+          }
+          else {
+            $header.removeClass(FIXED_CSS);
+            $body.css({
+              paddingTop: 0
+            });
+          }
+        });
+
+        // Initialize the scroll spy (highlights menu items as you scroll)
+        $body.scrollspy({
+          target: '#HeaderPanel'
+        });
+
+        // Smooth scroll
+        var $scrollParent = $('html, body');
+        $header.on('click', 'a[href^=#]', function(e) {
+          e.preventDefault();
+          // Find the scroll target
+          var $target = $(e.currentTarget.hash);
+          $scrollParent.animate({
+            scrollTop: $target.offset().top
+          }, SMOOTH_SCROLL_SPEED);
+        });
+      })();
+
+      // Lightbox image gallery hook.
+      (function() {
+        var DEFAULT_CONFIGS = {
+          // Gallery item selector
+          itemSelector: '[data-gallery-item]'
+        };
+
+        // configs: configs that we can use to pass arbitrary data from the template.
+        // options: options that are passed to the lightbox plugin (Ekko) and down to the modal object (Bootstrap).
+        window.ApirixGallery = function(configs, options) {
+          configs = $.extend({}, DEFAULT_CONFIGS, configs);
+          var $element = $(configs.gallerySelector);
+
+          Apirix.isDebug && console.log(configs, options, $element);
+
+          $element.on('click', configs.itemSelector, function(event) {
+            event.preventDefault();
+
+            var $item = $(this),
+              itemType = $item.attr('data-type');
+
+            // Set the default item type to be the image.
+            itemType = itemType ? itemType : 'image';
+
+            // Hook the lightbox plugin to this gallery item, pass down the options from the outside.
+            $item.ekkoLightbox($.extend({}, options, {
+              gallery_parent_selector: configs.gallerySelector,
+              type: itemType
+            }));
+          });
+        };
+      })();
+
+    });
+
+    /**
+     * Apirix Animations: wrapper for the animate.css library
+     * Dependency: animate.css
+     *
+     * Usage: 
+     * 	Specify elements to animate and the kind of animation to apply (unless specified in the app already).
+     * 	Initialize the animations library.
+     * $ELEMENT_TO_ANIMATE.addClass(ANIMATION_TYPE);
+     * new window.Apirix.AnimateCss().init();
+     *
+     * Example:
+     * 	$('#gallery').find('img').addClass('animateCss fadeIn');
+     */
+    (function($) {
+
+      var $window = $(window);
+
+      var DEFAULS = {
+        animateSelector: '.animateCss',
+        animateClass: 'animated',
+        animationNameAttribute: 'data-animation-name',
+        defaultAnimation: 'fadeIn'
+      };
+
+      window.Apirix = window.Apirix || {};
+      window.Apirix.AnimateCss = function(options) {
+        options = options || {};
+
+        this.options = $.extend({}, DEFAULS, options);
+      };
+      window.Apirix.AnimateCss.prototype = {
+        init: function() {
+          var self = this;
+          // Collection of elements to animate.
+          this.$elements = $(this.options.animateSelector);
+          // Hide the elements from the start.
+          this.$elements.each(function() {
+            self._hide($(this));
+          });
+          this.bind();
+
+          $window.trigger('initAnimateCss');
+        },
+        bind: function() {
+          $window.on('initAnimateCss scroll resize click load', $.proxy(this.check_if_in_view, this));
+        },
+        check_if_in_view: function() {
+          var self = this,
+            window_height = $window.height(),
+            window_top_position = $window.scrollTop(),
+            window_bottom_position = (window_top_position + window_height);
+
+          $.each(self.$elements, function() {
+            var $element = $(this);
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+            //check to see if this current container is within viewport
+            if (self.if_element_in_view($element, window_top_position, window_bottom_position)) {
+              self.doAnimateCss($element);
+            }
+          });
+        },
+        if_element_in_view: function($element, window_top_position, window_bottom_position) {
+          var element_height = $element.outerHeight();
+          var element_top_position = $element.offset().top;
+          var element_bottom_position = (element_top_position + element_height);
+
+          return (element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position) && $element.is(":visible");
+        },
+        // Trigger animations for the element.
+        // Modified example from: https://github.com/daneden/animate.css
+        doAnimateCss: function($element) {
+          this.$elements = this.$elements.not($element);
+          this._show($element);
+
+          var animateClass = this.options.animateClass,
+            animationName = $element.attr(this.options.animationNameAttribute);
+
+          // In case the animation name was not specified.
+          if (!animationName) {
+            animationName = this.options.defaultAnimation;
+          }
+
+          var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+          $element.addClass(animateClass + ' ' + animationName).one(animationEnd, function() {
+            $element.removeClass(animateClass + ' ' + animationName);
+          });
+        },
+        _hide: function($element) {
+          $element.css({
+            visibility: 'hidden'
+          });
+        },
+        _show: function($element) {
+          $element.css({
+            visibility: 'visible'
+          });
+        }
+      };
+
+    })(jQuery);
+
+    // History support.
+    (function($) {
+
+      var $window = $(window);
+
+      var DEFAULTS = {
+        linkSelector: '.js-history-link'
+      };
+
+      window.Apirix = window.Apirix || {};
+      window.Apirix.ContainerHistorySupport = function($container, options) {
+        options = options || {};
+        options = $.extend({}, DEFAULTS, options);
+
+        $container.on('click', 'a' + options.linkSelector, function(e, params) {
+          var $link = $(e.currentTarget),
+            slideAddress = $link.attr('href');
+
+          // Do not trigger the history change in case the click is triggered artificially.
+          if (!params || !params.artificial) {
+            window.history.pushState({}, '', slideAddress);
+          }
+        });
+
+        // To be able to handle the browsers's back and forward buttons.
+        $window.on('popstate', function(e) {
+          handleHash();
+        });
+
+        function handleHash(initial) {
+          // What's current hash?
+          var hash = window.location.hash;
+
+          if (hash) {
+            var $link = $container.find('a' + options.linkSelector).filter('[href="' + hash + '"]');
+            if ($link.length) {
+              $link.trigger('click', {
+                artificial: true
+              });
+
+              // If this is triggered on page load, scroll down to the item.
+              if (initial) {
+                $('html, body').animate({
+                  scrollTop: $link.offset().top - 70 // Height of the header.
+                });
+              }
+            }
+          }
+        }
+
+        // In case a certain category is requested at the page load.
+        handleHash(true);
+
+        // Store the initial page state.
+        window.history.replaceState({}, document.title, document.location.href);
+
+      };
+
+    })(jQuery);
+
+    Apirix.windowReady(function() {
+      new window.Apirix.AnimateCss().init();
+    });
+  </script>
+  <script type="text/javascript" src="ChampagneMapp/bootstrap.min.js"></script>
+  <script type="text/javascript" src="ChampagneMapp/ekko-lightbox.min.js"></script>
+  <script type="text/javascript" src="ChampagneMapp/buttons.js"></script>
+  <script type="text/javascript">
+    stLight.options({
+      publisher: "42cc70a2-9788-4b64-96ca-526352970d50",
+      doNotHash: true,
+      doNotCopy: true,
+      hashAddressBar: false
+    });
+  </script>
+  <iframe id="stSegmentFrame" name="stSegmentFrame" src="ChampagneMapp/getSegment.html" frameborder="0" scrolling="no" width="0px" height="0px" style="display:none;"></iframe>
+  <div id="stwrapper" class="stwrapper stwrapper4x" style="display: none;">
+    <iframe allowtransparency="true" id="stLframe" class="stLframe" name="stLframe" frameborder="0" scrolling="no" src="ChampagneMapp/index.8b80d8d9046d002f5c79f52c9a27d602.html"></iframe>
+  </div>
+  <div id="stOverlay" onclick="javascript:stWidget.closeWidget();"></div>
+</body>
+
+</html>
