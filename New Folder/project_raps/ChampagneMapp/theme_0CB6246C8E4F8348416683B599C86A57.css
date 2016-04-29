@@ -62,9 +62,7 @@
           font-size: 16px;
           line-height: 1.5;
           font-weight: 300;
-          background: $PageBackground;
-          font-size: $PageFontSize;
-          font-family: $PageFontFamily;
+        
           -moz-hyphens: auto;
           -ms-hyphens: auto;
           -o-hyphens: auto;
@@ -187,235 +185,138 @@
         }
         /* HEADER PANEL END */
         /* CTA1 PANEL */
+        /*-----------------------------------------*/
         
-        .cta1-panel {
+        .css-slideshow {
+          /*   padding-top: 90px;
+          padding-left: 200px;
+         */
+          float: left;
           position: relative;
-          background: #FFFFFF;
-          background-image: $CTA1PanelBackgroundImage;
-          border-top: $CTA1PanelBorderTop;
-          border-right: $CTA1PanelBorderRight;
-          border-left: $CTA1PanelBorderLeft;
-          border-bottom: $CTA1PanelBorderBottom;
-          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
-          color: #FFFFFF;
-        }
-        
-        .cta1-panel h1,
-        .cta1-panel h2,
-        .cta1-panel h3,
-        .cta1-panel h4,
-        .cta1-panel h5,
-        .cta1-panel h6 {
-          font-family: Oswald;
-          color: #FFFFFF;
-        }
-        
-        .cta1-panel a {
-          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
-          color: #FFFFFF;
-          text-decoration: none;
-        }
-        
-        .cta1-panel a:active,
-        .cta1-panel a:hover {
-          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
-          color: #FFFFFF;
-          text-decoration: none;
-        }
-        
-        .cta1-panel .btn {
-          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
-          color: #FFFFFF;
-          background: #444;
-          border: none;
-        }
-        
-        .cta1-panel .btn:active,
-        .cta1-panel .btn:hover {
-          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
-          color: #FFFFFF;
-          background: #444;
-        }
-        
-        .cta1-panel .carousel {
-          overflow: hidden;
-        }
-        
-        .cta1-panel .carousel .carousel-image-wrapper {
           width: 100%;
-          position: relative;
+          /*margin: 5em auto .5em auto;*/
         }
         
-        .cta1-panel .carousel .carousel-image {
-          min-width: 100%;
+        .css-slideshow figure {
+          margin: 0;
+          position: absolute;
         }
         
-        .cta1-panel .carousel .carousel-header {
-          display: block;
-          font-size: 36px;
-          margin: auto;
-          padding: 0.5em 0;
-          border: solid rgba(255, 255, 255, 0.5);
-          border-width: 1px 0;
-          text-transform: uppercase;
-        }
-        
-        .cta1-panel .carousel-description {
-          margin-top: 30px;
-          font-size: 16px;
-          line-height: 200%;
-          font-weight: lighter;
-          text-shadow: 1px 1px rgba(8, 8, 8, 0.45);
-        }
-        
-        .cta1-panel .carousel .carousel-video {
-          width: 100%;
+        .css-slideshow figcaption {
           position: absolute;
           top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          background: black;
-          z-index: 9999;
+          color: gray;
+          background: rgba(0, 0, 0, .0);
+          font-size: .9em;
+          padding: 8px 12px;
+          opacity: 9;
+          transition: opacity.5s;
         }
         
-        .cta1-panel .video-link {
-          font-size: 16px;
-          display: block;
-          margin: 0 auto;
-          z-index: 9999;
-          width: 100px;
-          position: absolute;
-          bottom: 4em;
-          left: 0;
-          right: 0;
-          border: 2px solid white;
-          background-color: rgba(0, 0, 0, 0);
+        .css-slideshow figure figcaption {
+          transition: opacity.5s;
+          opacity: 1;
+          padding-top: 100px;
         }
         
-        .cta1-panel .carousel-item-overlay {
-          display: block;
-          max-width: 800px;
-          width: 70%;
-          position: absolute;
-          top: 30vh;
-          left: 0;
-          right: 0;
-          margin: 0 auto;
-          padding: 0 1em;
-          z-index: 100;
-          text-align: center;
+        .css-slideshow figure {
+          opacity: 0;
         }
         
-        .cta1-panel .carousel-link {
-          display: inline-block;
-          margin-top: 30px;
+        .css-slideshow figure img {
+          padding-top: 100px;
+          width: 300px;
+          height: 360px;
+          margin-left: 60px;
+        }
+        
+        figure:nth-child(5) {
+          animation: xfade 32s 0s infinite;
+        }
+        
+        figure:nth-child(4) {
+          animation: xfade 32s 8s infinite;
+        }
+        
+        figure:nth-child(3) {
+          animation: xfade 32s 16s infinite;
+        }
+        
+        figure:nth-child(2) {
+          animation: xfade 32s 24s infinite;
+        }
+        
+        figure:nth-child(1) {
+          animation: xfade 32s 32s infinite;
+        }
+        
+        @keyframes xfade {
+          17% {
+            opacity: 1;
+          }
+          25% {
+            opacity: 0;
+          }
+          92% {
+            opacity: 0;
+          }
+        }
+        /*-----slut-------------------------------*/
+        
+        .cta1-panel {
+          float: left;
+          position: relative;
+          height: 459px;
+          margin-top: 5%;
+          width: 30%;
         }
         /* CTA1 PANEL END */
-        /* SOCIAL MEDIA PANEL */
-        
-        .social-media-panel {
-          overflow: auto;
-          background: #333;
-          background-image: $SocialMediaPanelBackgroundImage;
-          border-top: 1px solid #3e3d3d;
-          border-right: $SocialMediaPanelBorderRight;
-          border-left: $SocialMediaPanelBorderLeft;
-          border-bottom: $SocialMediaPanelBorderBottom;
-          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
-          color: '#BFBFBF';
-        }
-        
-        .social-media-panel h1,
-        .social-media-panel h2,
-        .social-media-panel h3,
-        .social-media-panel h4,
-        .social-media-panel h5,
-        .social-media-panel h6 {
-          font-family: Oswald;
-          color: #BFBFBF;
-        }
-        
-        .social-media-panel a {
-          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
-          color: #BFBFBF;
-        }
-        
-        .social-media-panel a:active,
-        .social-media-panel a:hover {
-          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
-          color: #BFBFBF;
-        }
-        
-        .social-media-panel .btn {
-          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
-          color: #FFFFFF;
-          background: #444;
-        }
-        
-        .social-media-panel .btn:active,
-        .social-media-panel .btn:hover {
-          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
-          color: #FFFFFF;
-          background: #444;
-        }
-        /* SOCIAL MEDIA PANEL END */
         /* CONTENT PANEL */
         
-        
-        #content-text{
-          padding-top:80px;
-          float:left;
+        #content-text {
+          margin-top: 5%;
+          float: left;
           width: 100%;
-          height:100px;
-         
         }
-         #content-text p{
-           margin-left: 300px;
-         padding-top:20px;
-          width:400px;
-          height:70px;
+        
+        #content-icon {
+          margin-bottom: 20px;
+          margin-right: 150px;
+          float: right;
+          background-image: url("pics/content-icon.png");
+          background-repeat: no-repeat;
+          background-size: 150px;
+          height: 150px;
+          width: 150px;
+        }
+        
+        #content-text p {
+          margin-left: 300px;
+          padding-top: 18px;
+          width: 400px;
           font-style: italic;
         }
-         
-         #content-text h1{
-           margin-left: 300px;
-           margin-top: 100px;
-          width:400px;
-          height:20px;
+        
+        #content-text h1 {
+          margin-left: 300px;
+          margin-top: 50px;
+          width: 400px;
+          height: 20px;
+          font-family: 'Pinyon Script', cursive;
+          font-size: 3em;
         }
-        
-        
-        
-        
         
         .content-panel {
-          background: silver;
-          background-image: $ContentPanelBackgroundImage;
-          border-top: $ContentPanelBorderTop;
-          border-right: $ContentPanelBorderRight;
-          border-left: $ContentPanelBorderLeft;
-          border-bottom: $ContentPanelBorderBottom;
+          margin-top: 5%;
+          float: left;
+          width: 70%;
+          background: #F7F7F7;
+          height: 500px;
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
           color: #000000;
-        }
-        .content-background{
-          
-     
-          background-color:white;
-          width:100%;
-         
+          border-bottom: medium solid;
+          border-top-width: thin;
+          border-color: silver;
         }
         
         .content-panel h1,
@@ -455,89 +356,166 @@
           color: #FFFFFF;
           background: #444;
         }
-        
-        
-        
-/*-----------------------------------------*/
-.css-slideshow{
-   padding-top:90px;
-   padding-left:200px;
-   position: absolut;
-   width: 400px;
-   height: 600px;
-   margin: 0 auto;
-   /*margin: 5em auto .5em auto;*/
-}
-.css-slideshow figure{
-  
-   margin: 0;
-   position: absolute;
-}
-.css-slideshow figcaption{
-   position: absolute;
-   top: 0;
-   color: black;
-   background: rgba(0,0,0, .0);
-   font-size: .8em;
-   padding: 8px 12px;
-   opacity: 9;
-   transition: opacity.5s;
-}
-.css-slideshow:hover figure figcaption{
-   transition: opacity.5s;
-   opacity: 1;
-}
-.css-slideshow figure{
-   opacity:0;
-}.css-slideshow figure img{
-    width: 360px;
-   height:390px;
-   
-}
-
-figure:nth-child(4) {
-  animation: xfade 32s 0s infinite;
-}
-
-figure:nth-child(3) {
-  animation: xfade 32s 8s infinite;
-}
-figure:nth-child(2) {
-  animation: xfade 32s 16s infinite;
-}
-figure:nth-child(1) {
-  animation: xfade 32s 24s infinite;
-} 
-@keyframes xfade{
-  17% {
-    opacity:1;
-  }
-  25% {
-    opacity:0;
-  }
-  92% {
-    opacity:0;
-  }
-}
-        /*-----slut-------------------------------*/
         /* END CONTENT PANEL */
+        /* START Business Panel*/
+        
+        .business-areas-panel {
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+          background-color: #F7F7F7;
+          width: 100%;
+          height: 385px;
+          background-size: 50% 100%;
+        }
+        
+        .shop-pics {
+          margin-left: auto;
+          margin-right: auto;
+          background-image: url("pics/frontPics2.jpg");
+          background-repeat: no-repeat;
+          width: 700px;
+          height: 100%;
+          background-size: 700px 300px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+        }
+        
+        .business-areas-panel h1 {
+          color: black;
+        }
+        
+        span.text-content {
+          background: rgba(0, 0, 0, 0.5);
+          color: white;
+          cursor: pointer;
+          display: table;
+          height: 79%;
+          left: 0;
+          position: relative;
+          top: 0;
+          width: 100%;
+          opacity: 0;
+          -webkit-transition: opacity 500ms;
+          -moz-transition: opacity 500ms;
+          -o-transition: opacity 500ms;
+          transition: opacity 1ms;
+          font-size: 1.5em;
+        }
+        
+        .business-areas-panel span.text-content:hover {
+          opacity: 1;
+        }
+        /* END Business Panel*/
+        /* START NEWS Panel*/
+        
+        .news-panel {
+          background-color: white;
+          float: left;
+          width: 100%;
+          height:100vh;
+        }
+        
+        .news-panel h1 {
+          font-style: oblique;
+        }
+        
+        .megafon-image {
+        
+          margin-top:60px;
+          background-image: url("pics/butik-megafon.png");
+          background-repeat: no-repeat;
+          background-size: 100% 100vh;
+          width:100%;
+          height:100vh;
+        }
+        .rubrik-megafon{
+         float:left;
+        }
+     /*   .newProduct{
+          background-image:url("pics/Grupp-Kallpressad-EKO.jpg");
+          background-repeat: no-repeat;
+          background-size: 400px 200px;
+          width: 404px;
+          height: 200px;
+        }
+       */ 
+        .multiple-borders {
+          margin-left:auto;
+          margin-right:auto;
+          width:800px;
+          height:300px;
+          overflow-y: scroll;
+          overflow-x: hidden;
+          -webkit-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.6), 0px 0px 0px 14px #fff, 0px 0px 0px 18px rgba(0, 0, 0, 0.2), 6px 6px 8px 17px #555;
+          -moz-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.6), 0px 0px 0px 14px #fff, 0px 0px 0px 18px rgba(0, 0, 0, 0.2), 6px 6px 8px 17px #555;
+          box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.6), 0px 0px 0px 14px #fff, 0px 0px 0px 18px rgba(0, 0, 0, 0.2), 6px 6px 8px 17px #555;
+        }
+        /* END NEWS Panel*/
+        /* START Social Panel*/
+        
+        .social-media-panel {
+          float: left;
+          background-color: white;
+          width: 50%;
+        }
+        
+        .fa-facebook-official {
+          margin-top: 30px;
+          margin-left: 10px;
+          float: left;
+          width: 150px;
+          height: 50px;
+        }
+        
+        .facebook-icon-media a {
+          margin-top: 30px;
+          margin-left: 10px;
+          float: left;
+          width: 150px;
+          height: 50px;
+          background-image: url("pics/FacebookIcon.jpg");
+          background-repeat: no-repeat;
+          background-size: 150px;
+        }
+        
+        .twitter-icon-media a {
+          margin-top: 30px;
+          margin-left: 15px;
+          float: left;
+          width: 150px;
+          height: 50px;
+          background-image: url("pics/Twitter-icon.jpg");
+          background-repeat: no-repeat;
+          background-size: 150px;
+        }
+        
+        .instagram-icon-media a {
+          margin-left: 5px;
+          margin-top: 20px;
+          float: left;
+          width: 150px;
+          height: 50px;
+          background-image: url("pics/instagram-icon.jpg");
+          background-repeat: no-repeat;
+          background-size: 150px;
+        }
+        /* END Social Panel*/
         /* FOOTER PANEL */
         
         .footer-panel {
-          margin-bottom: 0 auto ;
-          position:absolute;
-          bottom:0;
-          width:100%;
-          height:20px;
-          padding: 2em 0;
+          float: left;
+          margin-bottom: 0 auto;
+          position: relative;
+          bottom: 0;
+          width: 50%;
+          height: 50px;
+          padding: 3em 0;
           background: #333;
-          background-image: $FooterPanelBackgroundImage;
-          border-top: $FooterPanelBorderTop;
-          border-right: $FooterPanelBorderRight;
-          border-left: $FooterPanelBorderLeft;
-          border-bottom: $FooterPanelBorderBottom;
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
           color: #BFBFBF;
         }
         
@@ -548,26 +526,26 @@ figure:nth-child(1) {
         .footer-panel h5,
         .footer-panel h6 {
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
           color: #BFBFBF;
         }
         
         .footer-panel a {
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
           color: #BFBFBF;
         }
         
         .footer-panel a:active,
         .footer-panel a:hover {
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
           color: #BFBFBF;
         }
         
         .footer-panel .btn {
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
           color: #FFFFFF;
           background: #444;
         }
@@ -575,36 +553,19 @@ figure:nth-child(1) {
         .footer-panel .btn:active,
         .footer-panel .btn:hover {
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
           color: #FFFFFF;
           background: #444;
         }
         /* END FOOTER PANEL */
-        /* Experts / Medarbetare */
-        
-        .co-workers-control {
-          text-align: center;
-        }
-        
-        .co-worker-image-wrapper img {
-          width: 100%;
-        }
-        /* END Experts / Medarbetare */
         /* POWERED BY PANEL */
         
         .powered-by-panel {
-          float:left;
           height: 49px;
-          font-size: 13px;
+          width: 100%;
           background: #333333;
-          background-image: $PoweredByPanelBackgroundImage;
-          border-top: 1px solid #3e3d3d;
-          ;
-          border-right: $PoweredByPanelBorderRight;
-          border-left: $PoweredByPanelBorderLeft;
-          border-bottom: $PoweredByPanelBorderBottom;
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
           color: #9C9C9C;
         }
         
@@ -620,7 +581,90 @@ figure:nth-child(1) {
         
         .powered-by-panel a {
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
+          color: #9C9C9C;
+          text-decoration: none;
+          overflow: auto;
+          display: block;
+          float: right;
+        }
+        
+        .powered-by-panel a:active,
+        .powered-by-panel a:hover {
+          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+          
+          color: #9C9C9C;
+          text-decoration: none;
+        }
+        
+        .powered-by-panel .btn {
+          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+          
+          color: #FFFFFF;
+          background: #444;
+        }
+        
+        .powered-by-panel .btn:active,
+        .powered-by-panel .btn:hover {
+          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+          
+          color: #FFFFFF;
+          background: #444;
+        }
+        
+        .powered-by-panel .wrapper {
+          margin: auto;
+          max-width: 1080px;
+        }
+        
+        .powered-by-panel img {
+          width: 32px;
+          margin-top: 8px;
+          float: right;
+        }
+        
+        .powered-by-panel p {
+          float: right;
+          font-size: 13px;
+          -webkit-font-smoothing: antialiased;
+          margin-top: 15px;
+        }
+        /* POWERED BY PANEL END */
+        /* Experts / Medarbetare */
+        
+        .co-workers-control {
+          text-align: center;
+        }
+        
+        .co-worker-image-wrapper img {
+          width: 100%;
+        }
+        /* END Experts / Medarbetare */
+        /* POWERED BY PANEL */
+        
+        .powered-by-panel {
+          float: left;
+          height: 49px;
+          font-size: 13px;
+          background: #333333;
+          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+          
+          color: #9C9C9C;
+        }
+        
+        .powered-by-panel h1,
+        .powered-by-panel h2,
+        .powered-by-panel h3,
+        .powered-by-panel h4,
+        .powered-by-panel h5,
+        .powered-by-panel h6 {
+          font-family: Oswald;
+          color: #9C9C9C;
+        }
+        
+        .powered-by-panel a {
+          font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+          
           color: #9C9C9C;
           display: inline-block;
           margin-top: 8px;
@@ -630,13 +674,13 @@ figure:nth-child(1) {
         .powered-by-panel a:active,
         .powered-by-panel a:hover {
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
           color: #9C9C9C;
         }
         
         .powered-by-panel .btn {
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
           color: #FFFFFF;
           background: #444;
         }
@@ -644,7 +688,7 @@ figure:nth-child(1) {
         .powered-by-panel .btn:active,
         .powered-by-panel .btn:hover {
           font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-          ;
+          
           color: #FFFFFF;
           background: #444;
         }
@@ -717,6 +761,63 @@ figure:nth-child(1) {
           max-width: 300px;
           max-height: 25vh;
         }
+        /* test menu---------------------------*/
+        
+        ul#navigation {
+          position: fixed;
+          margin: 0px;
+          padding: 0px;
+          top: 10px;
+          left: 0px;
+          list-style: none;
+          z-index: 9999;
+        }
+        
+        ul#navigation li {
+          width: 100px;
+        }
+        
+        ul#navigation li a {
+          display: block;
+          /*margin-right:-2px*/
+          width: 100px;
+          height: 70px;
+          background-color: #CFCFCF;
+          background-repeat: no-repeat;
+          background-position: center center;
+          border: 1px solid #AFAFAF;
+          -moz-border-radius: 0px 10px 10px 0px;
+          -webkit-border-bottom-right-radius: 10px;
+          -webkit-border-top-right-radius: 10px;
+          -khtml-border-bottom-right-radius: 10px;
+          -khtml-border-top-right-radius: 10px;
+          /*-moz-box-shadow: 0px 4px 3px #000;
+    -webkit-box-shadow: 0px 4px 3px #000;
+    */
+          opacity: 0.6;
+          filter: progid: DXImageTransform.Microsoft.Alpha(opacity=60);
+        }
+        
+        #navigation .home a {
+          background-image: url(pics/home-icon.jpg);
+          background-size: 100px 70px;
+        }
+        
+        ul#navigation .about a {
+          background-image: url(pics/product.png);
+          background-size: 100px 70px;
+        }
+        
+        ul#navigation .contact a {
+          background-image: url(pics/contact.png);
+          background-size: 100px 70px;
+        }
+        
+        ul#navigation .podcasts a {
+          background-image: url(pics/info.png);
+          background-size: 100px 70px;
+        }
+        /* end test menu-----------------------*/
         
         .menu-panel {
           max-width: 1400px;
@@ -807,7 +908,7 @@ figure:nth-child(1) {
         
         .page-block {
           position: relative;
-          padding-top:5px;
+          padding-top: 5px;
         }
         
         @media screen and (max-width: 767px) {
@@ -917,56 +1018,6 @@ figure:nth-child(1) {
           text-transform: uppercase;
         }
         
-        /*.about-us-image {
-          opacity: 0.5;
-          max-width: 1100px;
-          width: 90%;
-          margin: 0 auto 2em;
-          border-radius: 2px;
-        }
-
-        .about-us-description {
-          line-height: 2;
-        }
-        
-        .services-carousel .carousel-indicators {
-          display: block;
-          width: 100%;
-          position: relative;
-          top: auto;
-          bottom: auto;
-          left: auto;
-          right: auto;
-          margin: 0 0 3em 0;
-          font-size: 11px;
-          line-height: 40px;
-        }
-        
-        .services-carousel .carousel-indicators > a,
-        .services-carousel .carousel-indicators > a.active,
-        .services-carousel .carousel-indicators > li,
-        .services-carousel .carousel-indicators > li.active {
-          text-decoration: none;
-          display: inline-block;
-          vertical-align: top;
-          position: relative;
-          width: auto;
-          height: auto;
-          margin: 0 0 5px 0;
-          padding: 0 15px;
-          text-transform: uppercase;
-          font-weight: 600;
-          border: solid rgba(255, 255, 255, 0.3);
-          border-width: 2px 0 0 0;
-          border-radius: 0;
-          text-indent: 0;
-          background-color: #FFF;
-          color: #000;
-          /* todo: create a $variable */
-          /*background-color: #333;
-        color: #E7BA2C;
-        }*/
-        
         .services-carousel .carousel-indicators > a.active,
         .services-carousel .carousel-indicators > li.active {
           color: #FFF;
@@ -985,41 +1036,6 @@ figure:nth-child(1) {
           border: 0.8em solid transparent;
           border-bottom: none;
           border-top-color: #000;
-        }
-        
-        .services-carousel .carousel-indicators .indicator__index {
-          font-size: 18px;
-        }
-        /* Carousel color scheme. */
-        /*.services-carousel .carousel-indicators > li:nth-child(6n+1) {
-          background-color: #4573E7;
-        }
-        .services-carousel .carousel-indicators > li:nth-child(6n+2) {
-          background-color: #EC6F86;
-        }
-        .services-carousel .carousel-indicators > li:nth-child(6n+3) {
-          background-color: #FE816D;
-        }
-        .services-carousel .carousel-indicators > li:nth-child(6n+4) {
-          background-color: #FFBA6D;
-        }
-        .services-carousel .carousel-indicators > li:nth-child(6n+5) {
-          background-color: #73B367;
-        }
-        .services-carousel .carousel-indicators > li:nth-child(6n+6) {
-          background-color: #67AFB3;
-        }*/
-        
-        .services-carousel .category-header {
-          margin-bottom: 1em;
-        }
-        
-        .services-carousel .category-image {
-          margin-bottom: 1em;
-        }
-        
-        .services-carousel .category-content {
-          overflow: auto;
         }
         
         .product__price-wrapper {
