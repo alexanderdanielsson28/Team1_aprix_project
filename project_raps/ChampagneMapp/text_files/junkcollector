@@ -855,3 +855,63 @@
   <div id="stOverlay" onclick="javascript:stWidget.closeWidget();"></div>
   
 /*******
+
+/*******
+
+        <!-- 
+        <div id="marginSlide">
+          <div id="fakeDiv"></div>
+          <a href="#OmossHead" class="slowSlide">
+            <div id="slide1" class="classslide">
+              <h3 class="headerSlide">Företaget</h3>
+              <p class="pSlide">-Alvarets raps</p>
+            </div>
+          </a>
+          <a href="#seasonStoreHead" class="slowSlide">
+            <div id="slide2" class="classslide">
+              <h3 class="headerSlide">Butik</h3>
+              <p class="pSlide">-Våra varor</p>
+            </div>
+          </a>
+          <a href="#" class="slowSlide">
+            <div id="slide3" class="classslide">
+              <h3 class="headerSlide">Header</h3>
+              <p class="pSlide">-Länk</p>
+            </div>
+          </a>
+          <a href="#" class="slowSlide">
+            <div id="slide4" class="classslide">
+              <h3 class="headerSlide">Header</h3>
+              <p class="pSlide">-Länk</p>
+            </div>
+          </a>
+          <a href="#" class="slowSlide">
+            <div id="slide5" class="classslide">
+              <h3 class="headerSlide">Header</h3>
+              <p class="pSlide">-Länk</p>
+            </div>
+          </a>
+          <a href="#" class="slowSlide">
+            <div id="slide6" class="classslide">
+              <h3 class="headerSlide">Header</h3>
+              <p class="pSlide">-Länk</p>
+            </div>
+          </a>
+        </div>
+-->
+
+/******
+
+/*******
+
+<h2 id="AboutUsH2">Om Oss</h2>
+            <div id="AboutUsDivMiddle">
+              <div class="AboutUsDiv1And2" id="AboutUsDivPrivate1">
+                <p id="AboutUsP1">Vi tror på en framtid med ett större sortiment av närproducerade varor för en bättre miljö och hälsa. Vi producerar endast ekologiska livsmedel. Vår främsta produkt är rapsolja.</p>
+              </div>
+              <div class="AboutUsDiv1And2" id="AboutUsDivPrivate2">
+                <p id="AboutUsP2">Vårt mål är att närproducerade livsmedel ska få större uppmärksamhet i samhället och vi jobbar hårt för att uppnå våra mål. Vi vill att fler väljer ekologiskt.</p>
+              </div>
+            </div>
+            
+/***********

@@ -1,9 +1,12 @@
 #erbjudanden {
     background-color: white;
+    border-bottom: .5px dashed black;
 }
 
 #behandlingar {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(252, 252, 252);
+    border-bottom: .5px dashed black;
+    box-shadow: 2px 2px 30px;
 }
 
 #galleri {
@@ -18,16 +21,11 @@
     background-color: rgb(255, 0, 255);
 }
 
-#HeaderPanelBakground {
-    width: 100%;
-    height: 750px;
-    background-color: black;
-}
-
 #HeaderPanelBakgroundDiv {
     width: 100%;
-    height: 100%;
-    background-image: url("../../ChampagneMapp/pics/copy.jpg");
+    height: 550px;
+    background-image: url("../../ChampagneMapp/pics/copyTestBK.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-top: 200px;
@@ -35,13 +33,13 @@
 
 #AboutUsDivMiddle {
     height: 150px;
-    width: 400px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #AboutUsH2 {
-    font-size: 50px;
+    font-size: 75px;
     color: white;
     text-align: center;
     margin-bottom: 15px;
@@ -50,13 +48,13 @@
 .AboutUsDiv1And2 {
     color: white;
     float: left;
-    width: 190px;
+    width: 240px;
     margin: 5px;
 }
 
 #AboutUsP1 {
-    line-height: 1.1em;
-    font-size: 20px;
+    line-height: 1em;
+    font-size: 25px;
 }
 
 #AboutUsP2 {
@@ -69,10 +67,6 @@
     margin-left: -15px
 }
 
-#OmossHead {
-    margin-bottom: 30px;
-}
-
 .commonHead {
     width: 1px;
     margin-left: auto;
@@ -82,14 +76,6 @@
 
 #galleriHead {
     margin-bottom: 15px;
-}
-
-#HeaderPanel {
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    z-index: 1200;
-    background-color: transparent;
 }
 
 .season123 {
@@ -246,11 +232,10 @@
 
 .classslide {
     width: 125px;
-    background-color: white;
-    float: left;
-    opacity: 0.6;
+    background-color: transparent;
+    opacity: 1;
     height: 60px;
-    transition: all .5s ease-in-out 0s;
+    transition: all .25s ease-in-out 0s;
     background-image: url("../../ChampagneMapp/pics/molnpng.png");
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -265,7 +250,7 @@
 
 #varraps {
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     margin-bottom: 25px;
 }
 
@@ -283,6 +268,10 @@
     height: 60px;
 }
 
+a {
+    text-decoration: none;
+}
+
 #fakeDiv {
     float: left;
     width: 125px;
@@ -290,11 +279,8 @@
     background-color: transparent;
 }
 
-#MenuPanel {
-    width: 100%;
-}
-
 #marginSlide {
+    z-index: 99;
     width: 1000px;
     height: 60px;
     margin-left: auto;
@@ -324,7 +310,7 @@
     font-size: 17px;
     margin-bottom: 15px;
     width: 399px;
-    line-height: 1.1em;
+    line-height: 1.3em;
 }
 
 #seasonStore {
@@ -335,4 +321,456 @@
 
 .seasonPCenter {
     line-height: 1.1em;
+}
+
+#NewsPanelBakgroundDiv {
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+    height: 500px;
+}
+
+#socialmediaDiv {
+    height: 125;
+    background-color: rgb(200, 200, 255);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#footerDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1050px;
+    height: 150px;
+    background-color: rgb(50, 50, 50);
+}
+
+#logotypeBK {
+    float: left;
+    width: 65px;
+    height: 65px;
+    background-image: url("../../ChampagneMapp/pics/logga.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+
+.dropbtn {
+    margin: 10px 5px 10px 5px;
+    background-color: rgb(233, 233, 233);
+    background-image: url(../../ChampagneMapp/pics/menu_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 65.4px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-image: url(../../ChampagneMapp/pics/copyBK.png);
+}
+
+.dropdown {
+    float: left;
+    position: relative;
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.show {
+    display: block;
+}
+
+#wrapper {
+    z-index: 2;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(153, 204, 255);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: fixed;
+    box-shadow: 2px 2px 30px;
+}
+
+#seasonStoreHead {
+    margin-bottom: 40px;
+}
+
+#OmossHead {
+    margin-bottom: 40px;
+}
+
+#SocialMediaIcons {
+    width: 450px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SMI1 {
+    background-image: url("../../ChampagneMapp/pics/facebookIcon.png");
+}
+
+#SMI2 {
+    background-image: url("../../ChampagneMapp/pics/twitterIcon.png");
+}
+
+#SMI3 {
+    background-image: url("../../ChampagneMapp/pics/g+icon.png");
+}
+
+#SMI4 {
+    background-image: url("../../ChampagneMapp/pics/instagramIcon.png");
+}
+
+#SMI5 {
+    background-image: url("../../ChampagneMapp/pics/linkedinIcon.png");
+    width: 72px;
+    height: 72px;
+}
+
+#SMI6 {
+    background-image: url("../../ChampagneMapp/pics/youtubeIcon.png");
+}
+
+.smistyle {
+    width: 75px;
+    height: 75px;
+    background-size: contain;
+    border-radius: 25px;
+}
+
+.w75 {
+    width: 75px;
+    height: 75px;
+    float: left;
+    border-radius: 25px;
+}
+
+.w75:hover {
+    -webkit-transition-delay: .75s;
+    -moz-transition-delay: .75s;
+    -o-transition-delay: .75s;
+    transition: all .75s ease-in-out 0s;
+    background-color: rgb(140, 140, 255);
+    border-radius: 25px;
+}
+
+.NewProductSlide {
+    float: left;
+    width: 150px;
+    height: 200px;
+}
+
+#NewProductText {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+.textforproduct {
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    line-height: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#NewsContainer {
+    width: 300px;
+    height: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+}
+
+.sizeImage {
+    width: 150px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#FirstNewsContainer {
+    height: 400px;
+    width: 500px;
+    background-color: blue;
+    margin-left: 400px;
+    margin-right: 175px;
+    float: left;
+}
+
+#headerSpace {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(252, 252, 252);
+    padding-bottom: 100px;
+}
+
+#NyheterForDig {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#FirstNewsTextBox {
+    width: 480px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.powered-by__logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.powered-by__text {
+    display: inline-block;
+    vertical-align: middle;
+    color: gray;
+}
+
+.threeFooter {
+    width: 350px;
+    height: 100px;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footerdivcolor {
+    color: rgb(200, 200, 200);
+}
+
+#copyCenter {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.threeFooterTwin {
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+#headerFoot {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#middle1 {
+    text-align: center;
+}
+
+#middle2 {
+    text-align: center;
+}
+
+#adressnumber {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#adress {
+    text-align: center;
+}
+
+#number {
+    text-align: center;
+}
+
+#footerwidth {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(50, 50, 50);
+}
+
+#img2Slide {
+    border-radius: 5px;
+}
+
+#img1Slide {
+    border-radius: 5px;
+}
+
+.A1920div {
+    width: 98px;
+    height: 48px;
+    background-color: rgb(75, 75, 75);
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    border: 1px solid white;
+}
+
+#A1920navbar {
+    margin-top: 10px;
+    width: 600px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle1920 {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.widthheight {
+    width: 98px;
+    height: 48px;
+    float: left;
+}
+
+@media screen and (max-width: 650px) {
+    .dropdown {
+        float: left;
+        position: relative;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #A1920navbar {
+        display: none;
+        margin-top: 10px;
+        width: 600px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #AboutContainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        height: 1000px;
+    }
+    #slideContainer {
+        height: 400px;
+        width: 400px;
+        margin-left: 23px;
+        padding: 2px;
+        border-radius: 15px;
+        border: 1px solid black;
+    }
+    #prapsDiv {
+        width: 400px;
+        margin-left: 23px;
+    }
+    #seasonContainer {
+        width: 400px;
+        height: 1250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .seasonSmallContainer123 {
+        margin: 15px 50px 5px 50px;
+        width: 200px;
+        height: 400px;
+    }
+    .season123 {
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+    }
+    #behandlingar {
+        background-color: rgb(252, 252, 252);
+        border-bottom: .5px dashed black;
+        height: 1000px;
+    }
+    #wrapper {
+        z-index: 2;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(153, 204, 255);
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        position: fixed;
+    }
+    #NewsContainer {
+        width: 300px;
+        height: 400px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #NewsPanelBakgroundDiv {
+        width: 100%;
+        background-color: rgb(252, 252, 252);
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #FirstNewsContainer {
+        height: 325px;
+        width: 400px;
+        background-color: blue;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    #FirstNewsTextBox {
+        width: 380px;
+        height: 305px;
+        margin-left: 10px;
+        background-color: white;
+        float: left;
+    }
+    #footerDiv {
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        height: 450px;
+        background-color: rgb(50, 50, 50);
+    }
+    #footerwidth {
+        width: 100%;
+        height: 450px;
+        background-color: rgb(50, 50, 50);
+    }
+    #footermargintop {
+        margin-top: 25px;
+    }
+    .powered-by__logo {
+        width: 50px;
+        margin-left: 130px;
+    }
+    #copyCenter {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 85px;
+    }
+    .threeFooterTwin {
+        width: 350px;
+        height: 100px;
+        margin-left: 40px;
+    }
 }
