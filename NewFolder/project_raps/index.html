@@ -10,7 +10,7 @@
   <meta name="description" content="Välkommen till Sveriges första Champagne SPA!
   En plats för vardagslyx, skönhetsbehandlingar, avkoppling och sparkling beauties.
   På Ulfsunda slott delar vi lokal med Hatt et Söners champagnekällare, en härligt bubblande mötesplats.">
-  <title>Champagne SPA, MAKEUP | Ulfsunda SPA</title>
+  <title>Öländsk Rapsolja</title>
   <link rel="stylesheet" href="ChampagneMapp/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="ChampagneMapp/css">
   <link rel="Stylesheet" type="text/css" href="ChampagneMapp/SiteStylesheet_658827E62531FA8C82A7AB996AA311F2.css">
@@ -33,7 +33,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" href="ChampagneMapp/theme_0CB6246C8E4F8348416683B599C86A57.css">
-
+  <link rel="shortcut icon" href="ChampagneMapp/pics/organic-icon3.png">
 
   <script type="text/javascript" src="ChampagneMapp/js/modernizr.js"></script>
 
@@ -44,7 +44,20 @@
 </head>
 
 <body>
+
+  <div id="sidebar">
+
+
+    <ol>
+      <li class="iconSide"><a href="#HeaderPanel"><i class="fa fa-home fa-3x" aria-hidden="true"></i></a></li>
+      <li class="iconSide"><a href="#CTAPanel2"><i class="fa fa-shopping-bag fa-3x" aria-hidden="true"></i></a></li>
+      <li class="iconSide"><a href="#NewsPanel"><i class="fa fa-list fa-3x" aria-hidden="true"></i></a></li>
+      <li class="iconSide"><a href="#AboutUsPanel"><i class="fa fa-user fa-3x" aria-hidden="true"></i></a></li>
+      <li class="iconSide"><a href="#FooterPanel"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a></li>
+    </ol>
+  </div>
   <div class="container">
+
     <header id="HeaderPanel" class="header-panel">
       <div id="PoweredByPanel" class="powered-by-panel">
         <div class="wrapper">
@@ -62,19 +75,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#" class="navbar-brand">Om oss</a>
+          <a href="#AboutUsPanel" class="navbar-brand">Om oss</a>
         </div>
         <!-- Collection of nav links, forms, and other content for toggling -->
         <div id="navbarCollapse" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Hem</a></li>
-            <li><a href="#">Produkter</a></li>
+            <li class="active"><a href="#HeaderPanel">Hem</a></li>
+            <li><a href="#newProductStart">Produkter</a></li>
             <li class="dropdown">
               <a data-toggle="dropdown" class="dropdown-toggle" href="#">Galleri Bibliotek <b class="caret"></b></a>
               <ul role="menu" class="dropdown-menu">
                 <li><a href="#">Odling</a></li>
-                <li><a href="#">Skörd</a></li>
-                <li><a href="#">Produktion</a></li>
+                <li><a href="#CTAPanel2">Butik</a></li>
+                <li><a href="#FooterPanel">Kontakta oss</a></li>
                 <li class="divider"></li>
                 <li><a href="#">Priser och Utmärkelser</a></li>
               </ul>
@@ -99,7 +112,8 @@
 
     <div class="aspNetHidden">
 
-      <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAOvVXD1oYELeveMr0vHCmYPzn2qeNwLRZHQswGa6LpKDTnsAhNXPMRAurHGrTrZYQUuEEGAyMWgtl83t0TBfk76ghUhSBGCERFwQ8bmbP4xqA==">
+      <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
+      value="/wEdAAOvVXD1oYELeveMr0vHCmYPzn2qeNwLRZHQswGa6LpKDTnsAhNXPMRAurHGrTrZYQUuEEGAyMWgtl83t0TBfk76ghUhSBGCERFwQ8bmbP4xqA==">
     </div>
     <div id="ContentPanel" class="content-panel">
 
@@ -111,11 +125,16 @@
         <div id="content-text">
           <h1>Öländsk Rapsolja!</h1>
           <p>
-            "Vi har förmånen att bo och verka på det natursköna Öland, i ett frodande landskap, bland guldgula rapsfält. Här odlas de råvaror som vi sedan vidareförädlar och säljer i vår gårdsbutik och till återförsäljare runt om i hela landet. Vi har förmånen att
-            bo och verka på det natursköna Öland, i ett frodande landskap, bland guldgula rapsfält. Här odlas de råvaror som vi sedan vidareförädlar och säljer i vår gårdsbutik och till återförsäljare runt om i hela landet."
+            "Vi har förmånen att bo och verka på det natursköna Öland,
+            i ett frodande landskap, bland guldgula rapsfält. Här odlas
+            de råvaror som vi sedan vidareförädlar och säljer i vår gårdsbutik
+            och till återförsäljare runt om i hela landet. Vi har förmånen att
+            bo och verka på det natursköna Öland, i ett frodande landskap, bland guldgula rapsfält.
+            Här odlas de råvaror som vi sedan vidareförädlar och säljer i vår gårdsbutik och
+            till återförsäljare runt om i hela landet."
           </p>
 
-
+          <div class="cta1-panel-mobile"></div>
           <div id="content-icon"></div>
         </div>
 
@@ -123,11 +142,12 @@
       </div>
 
     </div>
-
+    
     <div id="CTA1Panel" class="cta1-panel">
+      
       <div class="css-slideshow">
         <figure>
-          <img src="https://gyazo.com/0ec0d272b10f005bd056e61e23db43a1" />
+          <img src="ChampagneMapp/pics/Citron-300x360.jpg" />
           <figcaption><strong>"Smak av citron"</strong></figcaption>
         </figure>
 
@@ -153,13 +173,16 @@
       </div>
 
     </div>
-
+    <div id="buss"></div>
 
     <div id="BusinessAreasPanel" class="business-areas-panel">
       <div id="CTAPanel2" class="cta-panel-2">
 
-        <h1>Besök vår populära Webshop</h1>
-
+        <div id="normal-screen"><h1>Besök vår populära Webshop</h1>
+        </div>
+        <div id="mobile-screen"><h1>Nyheter</h1>
+        </div>
+        
       </div>
 
       <div class="col-md-12">
@@ -173,7 +196,7 @@
 
     <div id="NewsPanel" class="news-panel">
 
-      <div class="multiple-borders">
+      <div class="multiple-borders" id="newProductStart">
 
         <!-- Project One -->
         <div class="row">
@@ -201,7 +224,7 @@
             </a>
           </div>
           <div class="col-md-3">
-            <h3> Rapsolja Viol</h3>
+            <h3> Rapsolja Hallon</h3>
             <h4>25ml</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium </p>
             <a class="btn btn-primary" href="#">Till produkten <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -219,7 +242,7 @@
             </a>
           </div>
           <div class="col-md-3">
-            <h3> Rapsolja Viol</h3>
+            <h3> Rapsolja Smultron</h3>
             <h4>25ml</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium </p>
             <a class="btn btn-primary" href="#">Till produkten <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -238,7 +261,7 @@
             </a>
           </div>
           <div class="col-md-3">
-            <h3> Rapsolja Viol</h3>
+            <h3> Rapsolja Citron</h3>
             <h4>25ml</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium </p>
             <a class="btn btn-primary" href="#">Till produkten <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -256,7 +279,7 @@
             </a>
           </div>
           <div class="col-md-3">
-            <h3> Rapsolja Viol</h3>
+            <h3> Rapsolja Havssalt</h3>
             <h4>25ml</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium </p>
             <a class="btn btn-primary" href="#">Till produkten <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -273,13 +296,15 @@
               <li class="one_half first">
                 <div id="about-intro" class="clear">
 
-                  <div id="head-about"<h2>OM OSS</h2></div>
+                  <div id="head-about"> <h2>OM OSS</h2>
+                  </div>
                   <div id="text-about">Vi som driver Gunnarshögs gård heter Göran, Kerstin, Lisbeth och Gunnar. Vi har förmånen att bo och verka på det natursköna Österlen, i ett böljande landskap, bland guldgula rapsfält. Här odlas de råvaror som vi sedan vidareförädlar
                     och säljer i vår gårdsbutik och till återförsäljare runt om i landet. Gunnarshögs Gård är en släktgård som tillhört familjen Nilsson sedan 1897. Verksamheten har utvecklats från ett traditionellt jordbruk till ett nytänkande livsmedelsföretag
                     med kallpressad rapsolja i fokus. Rapsen odlas på vår egen gård eller alldeles i närheten, vilket ger oss full kontroll över hela produktionen, från frö till flaska. Kallpressningen sker på gården och är en mycket skonsam process,
                     som med låg temperatur och mekanisk kraft ”trycker” ut oljan ur fröna. Detta ger oss en rapsolja av högsta kvalitet, med naturligt gyllengul färg och härligt nötig smak. Vi hoppas och tror också att vår lokala produktion kan bidra
                     till en mer levande landsbygd, en hållbar utveckling samt ger dig möjligheten att göra hälsosamma val som ger bra livskvalitet. I vår välbesökta butik hittar du, förutom alla våra olika sorters oljor, även vinäger, senap, kryddor och
-                    marmelader. I vårt sommaröppna gårdskafé kan du njuta av läckra smörgåsar och söta delikatesser, allt bakat och tillrett i eget kök. Kom gärna förbi oss på gården, så berättar vi mer. Hälsningar från familjen Nilsson</div>
+                    marmelader. I vårt sommaröppna gårdskafé kan du njuta av läckra smörgåsar och söta delikatesser, allt bakat och tillrett i eget kök. Kom gärna förbi oss på gården, så berättar vi mer. Hälsningar från familjen Nilsson
+                  </div>
                 </div>
               </li>
               <li class="one_quarter">
@@ -331,7 +356,8 @@
           <div id="ContactUsPanel" class="contact-us-panel">
             <div id="ContactUsControl" class="contact-us-control">
               <h2 class="contact-us-header"><span class="fa fa-map-marker"></span>Kontakta oss</h2>
-              <h3>Postadress</h3><h3>Hällvägen 12 63353 Eskilstuna</h3>
+              <h3>Postadress</h3>
+              <h3>Hällvägen 12 63353 Eskilstuna</h3>
               <div id="EmailAddressesContainer" class="email-addresses-container  contact-method-container">Kundsupport: parabol.tv@telia.com
 
               </div>
@@ -344,13 +370,13 @@
     </div>
     <div id="SocialMediaPanel" class="social-media-panel">
       <div class="col-md-2">
-       <div id="SocialMediaControl" class="social-media-control">
-         <div class="facebook-icon-media">
-           <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
-         </div>
-         <div class="twitter-icon-media">
-          <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
-         </div>
+        <div id="SocialMediaControl" class="social-media-control">
+          <div class="facebook-icon-media">
+            <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+          </div>
+          <div class="twitter-icon-media">
+            <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+          </div>
           <div class="instagram-icon-media">
             <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
           </div>
@@ -359,7 +385,22 @@
     </div>
 
 
-
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
 
 
 

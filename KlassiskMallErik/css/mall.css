@@ -1,0 +1,601 @@
+.width100 {
+    width: 100%;
+}
+
+#navbarBackground {
+    width: 1000px;
+    height: 150px;
+    background-image: url("../pics/tryraps.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 150px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 1px 1px 5px;
+}
+
+#navbarLinksBelowBackground {
+    width: 1000px;
+    height: 50px;
+    background-color: transparent;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#navbarLinksBelowBackgroundRight {
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    float: right;
+}
+
+#links {
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    float: left;
+}
+
+#pagesHide {
+    padding-top: 12.5px;
+    width: 412px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SectionsContainer {
+    width: 1000px;
+    height: 775px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 1px 1px 5px;
+}
+
+#footer {
+    width: 1000px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: transparent;
+}
+
+#socialMedia {
+    width: 1000px;
+    height: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(200, 200, 255);
+    float: left;
+}
+
+#div1 {
+    width: 800px;
+    height: 700px;
+    background-color: white;
+    display: none;
+    float: left
+}
+
+#div2 {
+    width: 800px;
+    height: 700px;
+    background-color: pink;
+    display: none;
+    float: left
+}
+
+#div3 {
+    width: 800px;
+    height: 700px;
+    display: none;
+    background-color: white;
+    float: left
+}
+
+#openDiv {
+    width: 800px;
+    height: 700px;
+    background-color: red;
+    float: left;
+}
+
+#articleChanger {
+    float: right;
+    width: 198px;
+    height: 300px;
+    background-color: rgb(240, 240, 240);
+}
+
+#asideChanger {
+    float: right;
+    width: 198px;
+    height: 250px;
+    background-color: rgb(240, 240, 240);
+}
+
+body {
+    background-image: url("../pics/scratchedBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.w75 {
+    width: 75px;
+    height: 75px;
+    float: left;
+    border-radius: 25px;
+}
+
+.w75:hover {
+    -webkit-transition-delay: .75s;
+    -moz-transition-delay: .75s;
+    -o-transition-delay: .75s;
+    transition: all .75s ease-in-out 0s;
+    background-color: rgb(140, 140, 255);
+    border-radius: 25px;
+}
+
+#SMI1 {
+    background-image: url("../pics/facebookIcon.png");
+}
+
+#SMI2 {
+    background-image: url("../pics/twitterIcon.png");
+}
+
+#SMI3 {
+    background-image: url("../pics/g+icon.png");
+}
+
+#SMI4 {
+    background-image: url("../pics/instagramIcon.png");
+}
+
+#SMI5 {
+    background-image: url("../pics/linkedinIcon.png");
+    width: 72px;
+    height: 72px;
+}
+
+#SMI6 {
+    background-image: url("../pics/youtubeIcon.png");
+}
+
+.smistyle {
+    width: 75px;
+    height: 75px;
+    background-size: contain;
+    border-radius: 25px;
+}
+
+#socialIconContainer {
+    width: 450px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.threeFooterTwin {
+    width: 350px;
+    height: 100px;
+    float: left;
+}
+
+.footerdivcolor {
+    color: black;
+}
+
+.threeFooter {
+    width: 300px;
+    height: 100px;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#headerFoot {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#middle1 {
+    text-align: center;
+}
+
+#middle2 {
+    text-align: center;
+}
+
+#adressnumber {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#adress {
+    text-align: center;
+}
+
+#number {
+    text-align: center;
+}
+
+#copyCenter {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.powered-by__logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.powered-by__text {
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+}
+
+.containertext-right {
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+#footermargintop {
+    padding-top: 37px;
+}
+
+#headerSpace {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    padding-top: 15px;
+}
+
+#NyheterForDig {
+    font-size: 50px;
+    text-align: center;
+}
+
+#NewsPanelBakgroundDiv {
+    width: 100%;
+    background-color: white;
+    height: 600px;
+    padding-top: 50px;
+}
+
+#NewsContainer {
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+}
+
+.NewProductSlide {
+    float: left;
+    width: 150px;
+    height: 200px;
+}
+
+#img2Slide {
+    border-radius: 5px;
+}
+
+#img1Slide {
+    border-radius: 5px;
+}
+
+.sizeImage {
+    width: 150px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#NewProductText {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+.textforproduct {
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    line-height: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#seasonStore {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#seasonDiv {
+    background-image: url("../pics/reda.jpg");
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+#seasonDiv:hover {
+    background-image: url("../pics/go.jpg");
+}
+
+#seasonClick {
+    width: 86px;
+    height: 42px;
+}
+
+#seasonArrow {
+    width: 86px;
+    height: 42px;
+}
+
+#seasonContainer {
+    width: 900px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seasonSmallContainer123 {
+    margin: 35px;
+    float: left;
+    width: 200px;
+    height: 400px;
+}
+
+.season123 {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.FairSeason {
+    background-repeat: no-repeat;
+}
+
+#season1Bakground {
+    background-image: url("../pics/trueraps.png");
+    width: 138px;
+    height: 92px;
+    margin: 54px auto 54px auto;
+}
+
+.seasonHeader {
+    padding: 0px;
+    font-size: 20px;
+    margin: 2px 0px 10px 0px;
+    text-align: center;
+}
+
+.seasonPCenter {
+    line-height: 1.1em;
+}
+
+#season2Bakground {
+    background-image: url("../pics/trueolja.png");
+    width: 62px;
+    height: 196px;
+    margin: 2px auto 2px auto;
+}
+
+#weird {
+    margin-top: 0px;
+}
+
+#season3Bakground {
+    background-image: url("../pics/traktor.png");
+    width: 160px;
+    height: 111px;
+    margin: 44.5px auto 44.5px auto;
+}
+
+#varraps {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 75px;
+    margin-top: 15px;
+}
+
+#AboutContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 450px;
+}
+
+#slideContainer {
+    height: 400px;
+    width: 400px;
+    margin: 20px auto;
+    position: relative;
+    padding: 2px;
+    border-radius: 15px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 25px;
+}
+
+#leftHolder {
+    height: 300px;
+    width: 75px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.left {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 55%;
+    left: 5px;
+    opacity: 0.5;
+}
+
+.right {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 55%;
+    right: 5px;
+    opacity: 0.5;
+}
+
+.right:hover,
+.left:hover {
+    opacity: 1;
+}
+
+#rightHolder {
+    height: 300px;
+    width: 75px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#prapsDiv {
+    width: 300px;
+    float: left;
+    margin-left: 25px;
+}
+
+#h3Bakground {
+    margin: 25px 0px 25px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.praps {
+    font-size: 17px;
+    margin-bottom: 15px;
+    width: 298px;
+    line-height: 1.3em;
+}
+
+#slideImg {
+    border-radius: 15px;
+    height: 396px;
+    width: 396px;
+    position: absolute;
+    margin: 2px;
+}
+
+#ADHome {
+    display: block;
+}
+
+#AD1 {
+    display: none;
+}
+
+#AD2 {
+    display: none;
+}
+
+#AD3 {
+    display: none;
+}
+
+#ASDHome {
+    display: block;
+}
+
+#ASD1 {
+    display: none;
+}
+
+#ASD2 {
+    display: none;
+}
+
+#ASD3 {
+    display: none;
+}
+
+.asideUl {
+    margin-left: 15px;
+    padding-top: 65px;
+}
+
+.asideLi {
+    margin-bottom: 15px;
+}
+
+#welcomein {
+    text-align: center;
+}
+
+.AD3P {
+    font-size: 20px;
+    padding: 5px;
+}
+
+#alvaretsraps {
+    text-align: center;
+    font-size: 50px;
+    font-family: times;
+}
+
+.btn {
+    width: 20px;
+    height: 20px;
+    box-shadow: 1px 1px 20px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: black;
+}
+
+.myLinks {
+    text-decoration: none;
+}
+
+#btnHome {
+    color: red;
+}
+
+.myLinksDiv {
+    float: left;
+    width: 80px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 1px 1px 5px;
+}
+
+.myLinksDiv:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+#navbarMyLinksMiddle {
+    width: 328px;
+    height: 25px;
+    padding-top: 12.5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myLinksP {
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+}

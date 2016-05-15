@@ -10,7 +10,7 @@ function slide(x) {
     if (imageCount < 1) {
         imageCount = total;
     }
-    image.src = "ChampagneMapp/pics/img" + imageCount + ".jpg";
+    image.src = "pics/img" + imageCount + ".jpg";
 }
 
 setInterval(function slideA() {
@@ -22,5 +22,5 @@ setInterval(function slideA() {
     if (imageCount < 1) {
         imageCount = total;
     }
-    image.src = "ChampagneMapp/pics/img" + imageCount + ".jpg";
+    image.src = "pics/img" + imageCount + ".jpg";
 }, 7500);
